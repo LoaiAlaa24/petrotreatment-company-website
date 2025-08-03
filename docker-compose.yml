@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  petrotreatment-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-app
+    ports:
+      - "3000:80" # Host:Container
+    restart: unless-stopped

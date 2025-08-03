@@ -1,0 +1,203 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "clients": "Clients",
+    "contact": "Contact"
+  },
+  "hero": {
+    "company": "PETROTREATMENT for Petroleum and Environmental Services",
+    "subtitle": "ISO-certified waste management solutions from industrial cleaning to treatment plant construction and safe disposal operations",
+    "stats": {
+      "experience": "Years Experience",
+      "certifications": "ISO Certifications",
+      "clients": "Major Clients",
+      "regions": "Service Regions"
+    },
+    "buttons": {
+      "services": "Our Services",
+      "certificates": "Certificates"
+    }
+  },
+  "about": {
+    "title": "About Petrotreatment",
+    "subtitle": "Founded in 2014 and building on 28+ years of combined experience, Petrotreatment is a leading provider of comprehensive waste management and oil treatment services, serving major clients across Egypt's coastal areas, Sinai, and the Delta region.",
+    "features": {
+      "certified": {
+        "title": "ISO Certified",
+        "description": "Certified in ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, and WMRA compliant"
+      },
+      "comprehensive": {
+        "title": "Comprehensive Services",
+        "description": "From waste collection to treatment plant construction and oil sludge processing"
+      },
+      "awarded": {
+        "title": "Award-Winning",
+        "description": "National competition winners with COP28 and COP29 climate conference participation"
+      },
+      "trusted": {
+        "title": "Trusted Partners",
+        "description": "Serving major clients including Petrobel, Edison, Expro, and leading oil companies"
+      }
+    },
+    "story": {
+      "title": "Our Story & Mission",
+      "founding": "Petrotreatment was officially founded in May 2014, building on the legacy of sister companies operating since 1996, including Petroleum Services, Al Masrya Transport Company, and Al Assrya for Petroleum and Environmental Services.",
+      "specialization": "We specialize in comprehensive waste management - from collection and transportation to treatment and safe disposal. Our services include industrial tank cleaning, sludge handling, oil treatment operations, and construction of specialized treatment facilities.",
+      "mission": "With our modern fleet equipped with the latest safety standards and our dedicated treatment plant serving coastal areas, North Sinai, South Sinai, and the Delta, we deliver environmental solutions that meet international standards while driving sustainable development."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for all your oil and waste management needs, delivered by industry experts with proven track records.",
+    "list": {
+      "waste": {
+        "title": "Comprehensive Waste Management",
+        "description": "Complete waste management solutions from collection to safe disposal with environmental compliance.",
+        "features": [
+          "Waste collection and transportation",
+          "Treatment and processing",
+          "Safe disposal operations",
+          "Hazardous and non-hazardous waste handling"
+        ]
+      },
+      "construction": {
+        "title": "Treatment Unit Construction",
+        "description": "Design and construction of specialized treatment facilities for various types of industrial waste.",
+        "features": [
+          "Construction of waste treatment units",
+          "Hazardous waste treatment facilities",
+          "Non-hazardous industrial waste units",
+          "Brine water treatment units for oil & gas sites"
+        ]
+      },
+      "cleaning": {
+        "title": "Industrial Cleaning Services",
+        "description": "Professional cleaning and maintenance services for industrial facilities and equipment.",
+        "features": [
+          "Industrial tank cleaning",
+          "Sludge handling and transportation",
+          "Oil sludge treatment and disposal",
+          "Safe disposal operations"
+        ]
+      },
+      "treatment": {
+        "title": "Oil Treatment Operations",
+        "description": "Complete oil treatment services from processing to marketing of recycled products.",
+        "features": [
+          "Oil treatment operations execution",
+          "Sludge transport and treatment",
+          "Marketing of treated products",
+          "Sale of recycled materials"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Major Projects",
+    "subtitle": "Showcasing our expertise in large-scale water treatment and environmental solutions across Egypt's most strategic locations",
+    "portfolio": "PORTFOLIO",
+    "list": {
+      "sinai": {
+        "title": "Central Treatment Plant Project – East Qantara",
+        "location": "Industrial Zone, East Qantara, Ismailia Governorate",
+        "objective": "Treating water associated with oil and gas production",
+        "description": "This project plays a pivotal role in Sinai, given its strategic location at the heart of the region, serving as a central hub for the treatment of water associated with oil and gas production. Backed by a dedicated team of experts, it ensures the application of best practices to maximize efficiency and environmental impact."
+      },
+      "dabaa": {
+        "title": "Collaboration with Russian Side – El-Dabaa Nuclear Reactor",
+        "location": "El Dabaa, Matrouh Governorate, Egypt",
+        "objective": "Treating sewage water",
+        "description": "In this project, we are responsible for operating the treatment plants within the El-Dabaa Nuclear Reactor area. Our services support leading international companies, including ASE JRC, TREST ROSSEM, and SMU1, ensuring the highest standards of safety, reliability, and operational excellence in a highly sensitive and strategic environment."
+      }
+    },
+    "excellence": {
+      "title": "Strategic Project Excellence",
+      "subtitle": "Delivering world-class environmental solutions across Egypt's most critical infrastructure projects",
+      "stats": {
+        "projects": "Major Projects",
+        "projectsSubtitle": "Strategic Locations",
+        "governorates": "Governorates",
+        "governoratesSubtitle": "Coverage Area",
+        "safety": "Safety Standards",
+        "safetySubtitle": "Certified Quality",
+        "partners": "International",
+        "partnersSubtitle": "Partners"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to discuss your oil and waste management needs? Get in touch with our experts today.",
+    "info": {
+      "phone": {
+        "title": "Phone",
+        "subtitle": "Call us anytime"
+      },
+      "email": {
+        "title": "Email",
+        "subtitle": "Send us a message"
+      },
+      "location": {
+        "title": "Location",
+        "subtitle": "Visit our office"
+      },
+      "hours": {
+        "title": "Hours",
+        "content": "9 AM - 5 PM Cairo Time",
+        "subtitle": "Professional services"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "phone": "Phone Number",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Thank you for your message! We'll get back to you soon."
+    },
+    "why": {
+      "title": "Why Choose Petrotreatment?",
+      "expert": {
+        "title": "Expert Team",
+        "description": "Industry professionals with decades of experience"
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "Comprehensive service support and assistance"
+      },
+      "results": {
+        "title": "Proven Results",
+        "description": "Track record of successful projects and satisfied clients"
+      },
+      "environmental": {
+        "title": "Environmental Focus",
+        "description": "Sustainable solutions that protect the environment"
+      }
+    },
+    "headquarters": {
+      "title": "Our Cairo Headquarters",
+      "location": "Headquarters Location",
+      "address": "Petrotreatment For Petroleum and Environmental Services\n5C Buildings, City, Kom Ghorab\nOld Cairo, Cairo Governorate 4243205, Egypt",
+      "openMaps": "Open in Maps"
+    }
+  },
+  "footer": {
+    "description": "Leading provider of comprehensive oil and waste management services, committed to excellence, safety, and environmental sustainability.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "servicesList": {
+      "waste": "Waste Management",
+      "oil": "Oil Treatment",
+      "cleaning": "Industrial Cleaning",
+      "plants": "Treatment Plants"
+    },
+    "copyright": "Petrotreatment. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

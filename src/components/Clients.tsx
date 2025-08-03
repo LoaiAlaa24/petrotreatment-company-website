@@ -1,0 +1,148 @@
+import React from 'react';
+import {
+  Box,
+  Container,
+  Typography,
+  Grid,
+  Card,
+  CardMedia,
+  useTheme,
+  useMediaQuery,
+} from '@mui/material';
+
+const Clients: React.FC = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
+  const clients = [
+    {
+      name: 'Expro',
+      logo: '/clients/Expro_Logo.jpg',
+    },
+    {
+      name: 'Amer Group',
+      logo: '/clients/amer_group.png',
+    },
+    {
+      name: 'ASE',
+      logo: '/clients/ase.png',
+    },
+    {
+      name: 'Edison',
+      logo: '/clients/edison.png',
+    },
+    {
+      name: 'EPSCO',
+      logo: '/clients/epsco.jpeg',
+    },
+    {
+      name: 'Franks',
+      logo: '/clients/franks.png',
+    },
+    {
+      name: 'Mansoura Petroleum',
+      logo: '/clients/mansoura_petroleum_logo.jpeg',
+    },
+    {
+      name: 'NPPA',
+      logo: '/clients/nppa.jpeg',
+    },
+    {
+      name: 'Petrobel',
+      logo: '/clients/petrobel.jpeg',
+    },
+    {
+      name: 'Petrosafe',
+      logo: '/clients/petrosafe.gif',
+    },
+    {
+      name: 'Petrotrade',
+      logo: '/clients/petrotrade.jpeg',
+    },
+    {
+      name: 'Scomi Oil Tools',
+      logo: '/clients/scomi_oil_tools_middle_east_logo.jpeg',
+    },
+    {
+      name: 'Shelf Drilling',
+      logo: '/clients/shelf_drilling_logo.jpeg',
+    },
+    {
+      name: 'Trest',
+      logo: '/clients/trest.jpeg',
+    },
+  ];
+
+  return (
+    <Box id="clients" sx={{ py: 10, backgroundColor: 'background.default' }}>
+      <Container maxWidth="lg">
+        <Box sx={{ textAlign: 'center', mb: 8 }}>
+          <Typography
+            variant={isMobile ? 'h4' : 'h3'}
+            component="h2"
+            sx={{
+              fontWeight: 'bold',
+              color: 'text.primary',
+              mb: 2,
+            }}
+          >
+            Our Trusted Clients
+          </Typography>
+          <Typography
+            variant="h6"
+            sx={{
+              color: 'text.secondary',
+              maxWidth: 800,
+              mx: 'auto',
+              lineHeight: 1.6,
+            }}
+          >
+            We are proud to serve leading companies in the oil and gas industry, 
+            delivering excellence and building long-lasting partnerships.
+          </Typography>
+        </Box>
+
+        <Grid container spacing={3}>
+          {clients.map((client, index) => (
+            <Grid item xs={6} sm={4} md={3} lg={2.4} key={index}>
+              <Card
+                sx={{
+                  height: 120,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  p: 2,
+                  transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                  '&:hover': {
+                    transform: 'translateY(-4px)',
+                    boxShadow: theme.shadows[8],
+                  },
+                  cursor: 'pointer',
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  image={client.logo}
+                  alt={client.name}
+                  sx={{
+                    maxWidth: '100%',
+                    maxHeight: '80px',
+                    objectFit: 'contain',
+                    filter: 'grayscale(100%)',
+                    transition: 'filter 0.3s ease',
+                    '&:hover': {
+                      filter: 'grayscale(0%)',
+                    },
+                  }}
+                />
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+
+      </Container>
+    </Box>
+  );
+};
+
+export default Clients;
