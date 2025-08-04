@@ -244,7 +244,7 @@ const MajorProjects: React.FC = () => {
         </Box>
 
         <Grid container spacing={6}>
-          {projects.map((project, index) => (
+          {projects.slice().reverse().map((project, index) => (
             <Grid item xs={12} key={project.id}>
               <Card
                 elevation={0}

@@ -241,6 +241,7 @@ const Achievements: React.FC = () => {
         '/achievements/1/PHOTO-2023-11-10-00-28-03.jpg',
         '/achievements/1/PHOTO-2023-11-15-18-06-54.jpg',
         '/achievements/1/PHOTO-2023-12-06-05-46-15.jpg',
+        '/achievements/1/IMG_1822.jpg',
       ],
     },
     {
@@ -254,6 +255,7 @@ const Achievements: React.FC = () => {
         '/achievements/2/PHOTO-2025-03-24-14-11-47.jpg',
         '/achievements/2/A.jpg',
         '/achievements/2/PHOTO-2024-10-31-02-21-21 2.jpg',
+        '/achievements/2/IMG_1821.jpg',
       ],
     },
   ];
@@ -287,7 +289,7 @@ const Achievements: React.FC = () => {
         </Box>
 
         <Grid container spacing={6}>
-          {achievements.map((achievement, index) => (
+          {achievements.slice().reverse().map((achievement, index) => (
             <Grid item xs={12} key={achievement.id}>
               <Card
                 sx={{
