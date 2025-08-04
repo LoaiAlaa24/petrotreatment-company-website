@@ -9,11 +9,13 @@ import {
   useTheme,
 } from '@mui/material';
 import { ArrowForward, VerifiedUser } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Hero: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const { t } = useTranslation();
 
   const heroImages = [
     'hero_images/78cc76ed-3663-4953-af86-c6728ac8aa2d.jpg',
@@ -117,7 +119,7 @@ const Hero: React.FC = () => {
                   display: 'block',
                 }}
               >
-                PETROTREATMENT for Petroleum and Environmental Services
+                {t('hero.company')}
               </Typography>
               
               {/* <Typography
@@ -147,17 +149,15 @@ const Hero: React.FC = () => {
                   mx: { xs: 'auto', lg: 0 },
                 }}
               >
-                ISO-certified waste management solutions from industrial cleaning 
-                to treatment plant construction and safe disposal operations
+                {t('hero.subtitle')}
               </Typography>
 
               <Box sx={{ mb: 5 }}>
                 <Grid container spacing={3} justifyContent={{ xs: 'center', lg: 'flex-start' }}>
                   {[
-                    { number: '28+', label: 'Years Experience' },
-                    { number: '4', label: 'ISO Certifications' },
-                    { number: '14+', label: 'Major Clients' },
-                    { number: '4', label: 'Service Regions' },
+                    { number: '28+', label: t('hero.stats.experience') },
+                    { number: '4', label: t('hero.stats.certifications') },
+                    { number: '14+', label: t('hero.stats.clients') }
                   ].map((stat, index) => (
                     <Grid item xs={6} sm={3} key={index}>
                       <Box sx={{ textAlign: 'center' }}>
@@ -220,7 +220,7 @@ const Hero: React.FC = () => {
                     transition: 'all 0.3s ease',
                   }}
                 >
-                  Our Services
+                  {t('hero.buttons.services')}
                 </Button>
                 <Button
                   variant="outlined"
@@ -249,7 +249,7 @@ const Hero: React.FC = () => {
                     transition: 'all 0.3s ease',
                   }}
                 >
-                  Certificates
+                  {t('hero.buttons.certificates')}
                 </Button>
               </Box>
             </Box>

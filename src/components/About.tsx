@@ -9,6 +9,7 @@ import {
   useTheme,
   useMediaQuery,
 } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 import {
   Engineering,
   Nature,
@@ -21,27 +22,28 @@ import {
 const About: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const features = [
     {
       icon: <VerifiedUser sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'ISO Certified',
-      description: 'Certified in ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, and WMRA compliant'
+      title: t('about.features.certified.title'),
+      description: t('about.features.certified.description')
     },
     {
       icon: <Engineering sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Comprehensive Services',
-      description: 'From waste collection to treatment plant construction and oil sludge processing'
+      title: t('about.features.comprehensive.title'),
+      description: t('about.features.comprehensive.description')
     },
     {
       icon: <EmojiEvents sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Award-Winning',
-      description: 'National competition winners with COP28 and COP29 climate conference participation'
+      title: t('about.features.awarded.title'),
+      description: t('about.features.awarded.description')
     },
     {
       icon: <Business sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Trusted Partners',
-      description: 'Serving major clients including Petrobel, Edison, Expro, and leading oil companies'
+      title: t('about.features.trusted.title'),
+      description: t('about.features.trusted.description')
     },
   ];
 
@@ -58,7 +60,7 @@ const About: React.FC = () => {
               mb: 2,
             }}
           >
-            About Petrotreatment
+            {t('about.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -69,9 +71,7 @@ const About: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Founded in 2014 and building on 28+ years of combined experience, Petrotreatment is 
-            a leading provider of comprehensive waste management and oil treatment services, 
-            serving major clients across Egypt's coastal areas, Sinai, and the Delta region.
+            {t('about.subtitle')}
           </Typography>
         </Box>
 
@@ -131,7 +131,7 @@ const About: React.FC = () => {
                 mb: 3,
               }}
             >
-              Our Story & Mission
+              {t('about.story.title')}
             </Typography>
             <Typography
               variant="body1"
@@ -141,9 +141,7 @@ const About: React.FC = () => {
                 mb: 3,
               }}
             >
-              <strong>Petrotreatment was officially founded in May 2014</strong>, building on the legacy 
-              of sister companies operating since 1996, including Petroleum Services, Al Masrya Transport 
-              Company, and Al Assrya for Petroleum and Environmental Services.
+              {t('about.story.founding')}
             </Typography>
             <Typography
               variant="body1"
@@ -153,9 +151,7 @@ const About: React.FC = () => {
                 mb: 3,
               }}
             >
-              We specialize in <strong>comprehensive waste management</strong> - from collection and transportation 
-              to treatment and safe disposal. Our services include industrial tank cleaning, sludge handling, 
-              oil treatment operations, and construction of specialized treatment facilities.
+              {t('about.story.specialization')}
             </Typography>
             <Typography
               variant="body1"
@@ -164,9 +160,7 @@ const About: React.FC = () => {
                 lineHeight: 1.8,
               }}
             >
-              With our modern fleet equipped with the latest safety standards and our dedicated treatment 
-              plant serving coastal areas, North Sinai, South Sinai, and the Delta, we deliver environmental 
-              solutions that meet international standards while driving sustainable development.
+              {t('about.story.mission')}
             </Typography>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -194,7 +188,7 @@ const About: React.FC = () => {
                   mb: 3,
                 }}
               >
-                Years Combined Experience
+                {t('about.stats.yearsExperience')}
               </Typography>
               <Typography
                 variant="h3"
@@ -211,7 +205,7 @@ const About: React.FC = () => {
                   mb: 3,
                 }}
               >
-                International Certifications
+                {t('about.stats.internationalCertifications')}
               </Typography>
               <Typography
                 variant="h3"
@@ -225,7 +219,7 @@ const About: React.FC = () => {
               <Typography
                 variant="h6"
               >
-                National Awards
+                {t('about.stats.nationalAwards')}
               </Typography>
             </Box>
           </Grid>

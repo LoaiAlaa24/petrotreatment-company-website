@@ -37,6 +37,7 @@ const LanguageSwitcher: React.FC = () => {
   const handleLanguageChange = (languageCode: string) => {
     i18n.changeLanguage(languageCode);
     document.documentElement.dir = languageCode === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = languageCode;
     handleClose();
   };
 

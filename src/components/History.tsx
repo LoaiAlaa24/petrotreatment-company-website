@@ -16,49 +16,43 @@ import {
   Nature,
   Engineering,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const History: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const timelineEvents = [
     {
       year: '1996',
-      title: 'Foundation Era',
-      description: 'Sister companies began operations focusing on waste transport and environmental services',
-      companies: ['Petroleum Services', 'Al Masrya Transport Company', 'Al Assrya for Petroleum and Environmental Services'],
+      title: t('history.timeline.1996.title'),
+      description: t('history.timeline.1996.description'),
+      companies: t('history.timeline.1996.companies', { returnObjects: true }) as string[],
       icon: <Business sx={{ color: 'white' }} />,
       color: 'secondary.main',
     },
     {
-      year: '2000s',
-      title: 'Growth & Expansion',
-      description: 'Expanded operations in industrial and hazardous waste transportation services',
-      companies: [],
-      icon: <LocalShipping sx={{ color: 'white' }} />,
-      color: 'primary.light',
-    },
-    {
       year: '2014',
-      title: 'Official Foundation',
-      description: 'Petrotreatment was officially founded in May 2014, consolidating decades of experience',
-      companies: [],
+      title: t('history.timeline.2014.title'),
+      description: t('history.timeline.2014.description'),
+      companies: t('history.timeline.2014.companies', { returnObjects: true }) as string[],
       icon: <HistoryIcon sx={{ color: 'white' }} />,
       color: 'primary.main',
     },
     {
-      year: '2014+',
-      title: 'Strategic Partnerships',
-      description: 'Established partnerships with major oil firms including Petrobel in the Zohr gas field',
-      companies: [],
+      year: '2018',
+      title: t('history.timeline.2018.title'),
+      description: t('history.timeline.2018.description'),
+      companies: t('history.timeline.2018.companies', { returnObjects: true }) as string[],
       icon: <Engineering sx={{ color: 'white' }} />,
       color: 'primary.dark',
     },
     {
-      year: 'Present',
-      title: 'Environmental Leadership',
-      description: 'Leading provider of comprehensive oil and waste management solutions',
-      companies: [],
+      year: '2024',
+      title: t('history.timeline.2024.title'),
+      description: t('history.timeline.2024.description'),
+      companies: t('history.timeline.2024.companies', { returnObjects: true }) as string[],
       icon: <Nature sx={{ color: 'white' }} />,
       color: 'success.main',
     },
@@ -77,7 +71,7 @@ const History: React.FC = () => {
               mb: 2,
             }}
           >
-            Our History
+            {t('history.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -88,7 +82,7 @@ const History: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Building on decades of experience to become a leader in oil and waste management services
+            {t('history.subtitle')}
           </Typography>
         </Box>
 
@@ -112,7 +106,7 @@ const History: React.FC = () => {
                     mb: 3,
                   }}
                 >
-                  Our Journey
+                  {t('history.journey.title')}
                 </Typography>
                 
                 <Typography
@@ -123,8 +117,7 @@ const History: React.FC = () => {
                     mb: 3,
                   }}
                 >
-                  <strong>Petrotreatment was officially founded in May 2014</strong>, building on the 
-                  experience and activities of several sister companies operating since 1996.
+                  {t('history.journey.founding')}
                 </Typography>
 
                 <Typography
@@ -135,10 +128,7 @@ const History: React.FC = () => {
                     mb: 3,
                   }}
                 >
-                  These pioneering companies include <strong>Petroleum Services</strong>, 
-                  <strong> Al Masrya Transport Company</strong>, and 
-                  <strong> Al Assrya for Petroleum and Environmental Services Company</strong> - 
-                  all focused on waste transport and environmental services.
+                  {t('history.journey.pioneers')}
                 </Typography>
 
                 <Typography
@@ -149,9 +139,7 @@ const History: React.FC = () => {
                     mb: 3,
                   }}
                 >
-                  The founder's journey began with transporting industrial and hazardous waste 
-                  and expanded through strategic partnerships with major oil firms like 
-                  <strong> Petrobel in the Zohr gas field</strong>.
+                  {t('history.journey.expansion')}
                 </Typography>
 
                 <Box
@@ -178,7 +166,7 @@ const History: React.FC = () => {
                       opacity: 0.9,
                     }}
                   >
-                    Years of Combined Experience
+                    {t('about.stats.yearsExperience')}
                   </Typography>
                   <Typography
                     variant="body2"
@@ -187,7 +175,7 @@ const History: React.FC = () => {
                       opacity: 0.8,
                     }}
                   >
-                    Since 1996
+                    {t('history.journey.since')}
                   </Typography>
                 </Box>
               </CardContent>

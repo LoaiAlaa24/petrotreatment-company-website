@@ -9,10 +9,12 @@ import {
   useTheme,
   useMediaQuery,
 } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 
 const Clients: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const clients = [
     {
@@ -86,7 +88,7 @@ const Clients: React.FC = () => {
               mb: 2,
             }}
           >
-            Our Trusted Clients
+            {t('clients.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -97,8 +99,7 @@ const Clients: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            We are proud to serve leading companies in the oil and gas industry, 
-            delivering excellence and building long-lasting partnerships.
+            {t('clients.subtitle')}
           </Typography>
         </Box>
 

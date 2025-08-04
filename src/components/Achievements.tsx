@@ -16,6 +16,7 @@ import {
   ArrowForwardIos,
   FiberManualRecord 
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, alt }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -226,15 +227,16 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
 const Achievements: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const achievements = [
     {
       id: 1,
-      year: '2023',
-      title: 'Smart Green Projects NATIONAL COMPETITION and COP28',
-      project: 'Central Treatment Plant Project – East Qantara',
-      awards: ['1st place in Ismailia Governorate (Medium Projects Category)', '2nd place nationwide'],
-      conference: 'Participated in COP28 Climate Conference in Dubai, UAE',
+      year: t('achievements.list.2023.year'),
+      title: t('achievements.list.2023.title'),
+      project: t('achievements.list.2023.project'),
+      awards: t('achievements.list.2023.awards', { returnObjects: true }) as string[],
+      conference: t('achievements.list.2023.conference'),
       images: [
         '/achievements/1/PHOTO-2023-11-10-00-28-03.jpg',
         '/achievements/1/PHOTO-2023-11-15-18-06-54.jpg',
@@ -243,11 +245,11 @@ const Achievements: React.FC = () => {
     },
     {
       id: 2,
-      year: '2024',
-      title: 'Smart Green Projects NATIONAL COMPETITION and COP29',
-      project: 'Tree Forest – East Qantara',
-      awards: ['2nd place in Ismailia Governorate (Medium Projects Category)', '3rd place nationwide'],
-      conference: 'Participated in COP29 Climate Conference in Baku, Azerbaijan',
+      year: t('achievements.list.2024.year'),
+      title: t('achievements.list.2024.title'),
+      project: t('achievements.list.2024.project'),
+      awards: t('achievements.list.2024.awards', { returnObjects: true }) as string[],
+      conference: t('achievements.list.2024.conference'),
       images: [
         '/achievements/2/PHOTO-2025-03-24-14-11-47.jpg',
         '/achievements/2/A.jpg',
@@ -269,7 +271,7 @@ const Achievements: React.FC = () => {
               mb: 2,
             }}
           >
-            Achievements
+            {t('achievements.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -280,7 +282,7 @@ const Achievements: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Recognition for our environmental initiatives and sustainable project development
+            {t('achievements.subtitle')}
           </Typography>
         </Box>
 

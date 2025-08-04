@@ -30,6 +30,12 @@ i18n
       order: ['localStorage', 'navigator', 'htmlTag'],
       caches: ['localStorage'],
     },
+  })
+  .then(() => {
+    // Set initial direction based on language
+    const currentLang = i18n.language || 'en';
+    document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.lang = currentLang;
   });
 
 export default i18n;

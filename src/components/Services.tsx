@@ -21,55 +21,37 @@ import {
   BusinessCenter,
   CheckCircleOutline,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Services: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const services = [
     {
       icon: <RecyclingOutlined sx={{ fontSize: 50, color: 'primary.main' }} />,
-      title: 'Comprehensive Waste Management',
-      description: 'Complete waste management solutions from collection to safe disposal with environmental compliance.',
-      features: [
-        'Waste collection and transportation',
-        'Treatment and processing',
-        'Safe disposal operations',
-        'Hazardous and non-hazardous waste handling'
-      ]
+      title: t('services.list.waste.title'),
+      description: t('services.list.waste.description'),
+      features: t('services.list.waste.features', { returnObjects: true }) as string[]
     },
     {
       icon: <BuildOutlined sx={{ fontSize: 50, color: 'primary.main' }} />,
-      title: 'Treatment Unit Construction',
-      description: 'Design and construction of specialized treatment facilities for various types of industrial waste.',
-      features: [
-        'Construction of waste treatment units',
-        'Hazardous waste treatment facilities',
-        'Non-hazardous industrial waste units',
-        'Brine water treatment units for oil & gas sites'
-      ]
+      title: t('services.list.construction.title'),
+      description: t('services.list.construction.description'),
+      features: t('services.list.construction.features', { returnObjects: true }) as string[]
     },
     {
       icon: <CleaningServices sx={{ fontSize: 50, color: 'primary.main' }} />,
-      title: 'Industrial Cleaning Services',
-      description: 'Professional cleaning and maintenance services for industrial facilities and equipment.',
-      features: [
-        'Industrial tank cleaning',
-        'Sludge handling and transportation',
-        'Oil sludge treatment and disposal',
-        'Safe disposal operations'
-      ]
+      title: t('services.list.cleaning.title'),
+      description: t('services.list.cleaning.description'),
+      features: t('services.list.cleaning.features', { returnObjects: true }) as string[]
     },
     {
       icon: <LocalShipping sx={{ fontSize: 50, color: 'primary.main' }} />,
-      title: 'Oil Treatment Operations',
-      description: 'Complete oil treatment services from processing to marketing of recycled products.',
-      features: [
-        'Oil treatment operations execution',
-        'Sludge transport and treatment',
-        'Marketing of treated products',
-        'Sale of recycled materials'
-      ]
+      title: t('services.list.treatment.title'),
+      description: t('services.list.treatment.description'),
+      features: t('services.list.treatment.features', { returnObjects: true }) as string[]
     },
   ];
 
@@ -86,7 +68,7 @@ const Services: React.FC = () => {
               mb: 2,
             }}
           >
-            Our Services
+            {t('services.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -97,8 +79,7 @@ const Services: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Comprehensive solutions for all your oil and waste management needs, 
-            delivered by industry experts with proven track records.
+            {t('services.subtitle')}
           </Typography>
         </Box>
 

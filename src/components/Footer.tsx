@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {
   Box,
   Container,
@@ -12,9 +13,30 @@ import {
   Email,
   LocationOn,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const currentYear = new Date().getFullYear();
+
+  const handleNavigation = (sectionKey: string) => {
+    if (sectionKey === 'Careers') {
+      navigate('/careers');
+    } else {
+      // If not on home page, navigate to home first
+      if (location.pathname !== '/') {
+        navigate('/', { replace: true });
+        // Wait for navigation to complete, then scroll
+        setTimeout(() => {
+          scrollToSection(sectionKey);
+        }, 100);
+      } else {
+        scrollToSection(sectionKey);
+      }
+    }
+  };
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId.toLowerCase());
@@ -72,7 +94,7 @@ const Footer: React.FC = () => {
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
               <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-                +20 123 456 7890
+                +20 100 160 4 667
               </Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
@@ -101,14 +123,22 @@ const Footer: React.FC = () => {
                     color: 'white',
                   }}
                 >
-                  Quick Links
+                  {t('footer.quickLinks')}
                 </Typography>
                 <Box>
-                  {['Home', 'About', 'Services', 'Projects', 'Clients', 'Contact'].map((item) => (
+                  {[
+                    { key: 'Home', label: t('navigation.home') },
+                    { key: 'About', label: t('navigation.about') },
+                    { key: 'Services', label: t('navigation.services') },
+                    { key: 'Projects', label: t('navigation.projects') },
+                    { key: 'Clients', label: t('navigation.clients') },
+                    { key: 'Careers', label: t('navigation.careers') },
+                    { key: 'Contact', label: t('navigation.contact') }
+                  ].map((item) => (
                     <Link
-                      key={item}
+                      key={item.key}
                       component="button"
-                      onClick={() => scrollToSection(item)}
+                      onClick={() => handleNavigation(item.key)}
                       sx={{
                         display: 'block',
                         color: 'rgba(255, 255, 255, 0.8)',
@@ -124,7 +154,7 @@ const Footer: React.FC = () => {
                         },
                       }}
                     >
-                      {item}
+                      {item.label}
                     </Link>
                   ))}
                 </Box>
@@ -140,14 +170,14 @@ const Footer: React.FC = () => {
                     color: 'white',
                   }}
                 >
-                  Services
+                  {t('footer.services')}
                 </Typography>
                 <Box>
                   {[
-                    'Waste Management',
-                    'Oil Treatment',
-                    'Industrial Cleaning',
-                    'Treatment Plants',
+                    t('footer.servicesList.waste'),
+                    t('footer.servicesList.oil'),
+                    t('footer.servicesList.cleaning'),
+                    t('footer.servicesList.plants'),
                   ].map((service) => (
                     <Typography
                       key={service}

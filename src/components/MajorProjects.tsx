@@ -20,6 +20,7 @@ import {
   ArrowForwardIos,
   FiberManualRecord,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, alt }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -168,16 +169,17 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
 const MajorProjects: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const projects = [
     {
       id: 1,
-      title: 'Central Treatment Plant Project – East Qantara',
+      title: t('projects.list.sinai.title'),
       year: '2023',
-      location: 'Industrial Zone, East Qantara, Ismailia Governorate',
-      objective: 'Treating water associated with oil and gas production',
-      description: 'This project plays a pivotal role in Sinai, given its strategic location at the heart of the region, serving as a central hub for the treatment of water associated with oil and gas production. Backed by a dedicated team of experts, it ensures the application of best practices to maximize efficiency and environmental impact.',
-      status: 'Completed',
+      location: t('projects.list.sinai.location'),
+      objective: t('projects.list.sinai.objective'),
+      description: t('projects.list.sinai.description'),
+      status: t('projects.status.completed'),
       statusColor: 'success',
       images: [
         '/projects/sinai/PHOTO-2025-02-21-01-18-14.jpg',
@@ -186,12 +188,12 @@ const MajorProjects: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Collaboration with Russian Side – El-Dabaa Nuclear Reactor',
+      title: t('projects.list.dabaa.title'),
       year: '2025',
-      location: 'El Dabaa, Matrouh Governorate, Egypt',
-      objective: 'Treating sewage water',
-      description: 'In this project, we are responsible for operating the treatment plants within the El-Dabaa Nuclear Reactor area. Our services support leading international companies, including ASE JRC, TREST ROSSEM, and SMU1, ensuring the highest standards of safety, reliability, and operational excellence in a highly sensitive and strategic environment.',
-      status: 'Ongoing',
+      location: t('projects.list.dabaa.location'),
+      objective: t('projects.list.dabaa.objective'),
+      description: t('projects.list.dabaa.description'),
+      status: t('projects.status.ongoing'),
       statusColor: 'primary',
       images: [
         '/projects/dabaa/78cc76ed-3663-4953-af86-c6728ac8aa2d.jpg',
@@ -215,7 +217,7 @@ const MajorProjects: React.FC = () => {
               display: 'block',
             }}
           >
-            PORTFOLIO
+            {t('projects.portfolio')}
           </Typography>
           <Typography
             variant={isMobile ? 'h4' : 'h3'}
@@ -226,7 +228,7 @@ const MajorProjects: React.FC = () => {
               mb: 2,
             }}
           >
-            Major Projects
+            {t('projects.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -237,8 +239,7 @@ const MajorProjects: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Showcasing our expertise in large-scale water treatment and environmental solutions 
-            across Egypt's most strategic locations
+            {t('projects.subtitle')}
           </Typography>
         </Box>
 
@@ -345,7 +346,7 @@ const MajorProjects: React.FC = () => {
                                 mb: 0.5,
                               }}
                             >
-                              Location
+                              {t('projects.labels.location')}
                             </Typography>
                             <Typography
                               variant="body1"
@@ -379,7 +380,7 @@ const MajorProjects: React.FC = () => {
                                 mb: 0.5,
                               }}
                             >
-                              Objective
+                              {t('projects.labels.objective')}
                             </Typography>
                             <Typography
                               variant="body1"
@@ -413,7 +414,7 @@ const MajorProjects: React.FC = () => {
           ))}
         </Grid>
 
-        <Box
+        {/* <Box
           sx={{
             mt: 10,
             p: { xs: 4, md: 6 },
@@ -445,7 +446,7 @@ const MajorProjects: React.FC = () => {
               zIndex: 1,
             }}
           >
-            Strategic Project Excellence
+            {t('projects.excellence.title')}
           </Typography>
           <Typography
             variant="body1"
@@ -458,14 +459,14 @@ const MajorProjects: React.FC = () => {
               zIndex: 1,
             }}
           >
-            Delivering world-class environmental solutions across Egypt's most critical infrastructure projects
+            {t('projects.excellence.subtitle')}
           </Typography>
           <Grid container spacing={4}>
             {[
-              { number: '2', label: 'Major Projects', sublabel: 'Strategic Locations' },
-              { number: '3', label: 'Governorates', sublabel: 'Coverage Area' },
-              { number: '100%', label: 'Safety Standards', sublabel: 'Certified Quality' },
-              { number: '5+', label: 'International', sublabel: 'Partners' },
+              { number: '2', label: t('projects.excellence.stats.projects'), sublabel: t('projects.excellence.stats.projectsSubtitle') },
+              { number: '3', label: t('projects.excellence.stats.governorates'), sublabel: t('projects.excellence.stats.governoratesSubtitle') },
+              { number: '100%', label: t('projects.excellence.stats.safety'), sublabel: t('projects.excellence.stats.safetySubtitle') },
+              { number: '5+', label: t('projects.excellence.stats.partners'), sublabel: t('projects.excellence.stats.partnersSubtitle') },
             ].map((stat, index) => (
               <Grid item xs={6} md={3} key={index}>
                 <Box sx={{ position: 'relative', zIndex: 1 }}>
@@ -502,7 +503,7 @@ const MajorProjects: React.FC = () => {
               </Grid>
             ))}
           </Grid>
-        </Box>
+        </Box> */}
       </Container>
     </Box>
   );

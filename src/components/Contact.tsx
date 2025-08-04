@@ -18,10 +18,12 @@ import {
   LocationOn,
   Schedule,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Contact: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t, i18n } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -34,27 +36,27 @@ const Contact: React.FC = () => {
   const contactInfo = [
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Phone',
-      content: '+20 100 160 4 66 7',
-      subtitle: 'Call us anytime',
+      title: t('contact.info.phone.title'),
+      content: '+20 100 160 4 667',
+      subtitle: t('contact.info.phone.subtitle'),
     },
     {
       icon: <Email sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Email',
-      content: 'info@petrotreatment.com',
-      subtitle: 'Send us a message',
+      title: t('contact.info.email.title'),
+      content: t('contact.info.email.content'),
+      subtitle: t('contact.info.email.subtitle'),
     },
     {
       icon: <LocationOn sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Location',
-      content: 'Cairo, Egypt',
-      subtitle: 'Visit our office',
+      title: t('contact.info.location.title'),
+      content: t('contact.info.location.content'),
+      subtitle: t('contact.info.location.subtitle'),
     },
     {
       icon: <Schedule sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Hours',
-      content: '9 AM - 5 PM Cairo Time',
-      subtitle: 'Professional services',
+      title: t('contact.info.hours.title'),
+      content: t('contact.info.hours.content'),
+      subtitle: t('contact.info.hours.subtitle'),
     },
   ];
 
@@ -91,7 +93,7 @@ const Contact: React.FC = () => {
               mb: 2,
             }}
           >
-            Contact Us
+            {t('contact.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -102,8 +104,7 @@ const Contact: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Ready to discuss your oil and waste management needs? 
-            Get in touch with our experts today.
+            {t('contact.subtitle')}
           </Typography>
         </Box>
 
@@ -142,6 +143,12 @@ const Contact: React.FC = () => {
                       color: 'text.primary',
                       fontWeight: 500,
                       mb: 1,
+                      ...(index === 0 && {
+                        direction: 'ltr',
+                        textAlign: 'center',
+                        fontFamily: 'monospace',
+                        unicodeBidi: 'embed',
+                      }),
                     }}
                   >
                     {info.content}
@@ -210,7 +217,7 @@ const Contact: React.FC = () => {
                   <Grid item xs={12} sm={6}>
                     <TextField
                       fullWidth
-                      label="Company"
+                      label={t('contact.form.companyLabel')}
                       name="company"
                       value={formData.company"
                       onChange={handleInputChange}
@@ -259,7 +266,7 @@ const Contact: React.FC = () => {
               </form>
             </Card>
           </Grid> */}
-          <Grid item xs={12}>
+          {/* <Grid item xs={12}>
             <Box
               sx={{
                 backgroundColor: 'primary.main',
@@ -322,7 +329,7 @@ const Contact: React.FC = () => {
                 </Grid>
               </Grid>
             </Box>
-          </Grid>
+          </Grid> */}
         </Grid>
 
         {/* Google Maps Section */}
@@ -337,7 +344,7 @@ const Contact: React.FC = () => {
               textAlign: 'center',
             }}
           >
-            Our Cairo Headquarters
+            {t('contact.headquarters.title')}
           </Typography>
           <Card
             sx={{
@@ -378,7 +385,7 @@ const Contact: React.FC = () => {
                           mb: 1,
                         }}
                       >
-                        Headquarters Location
+                        {t('contact.headquarters.location')}
                       </Typography>
                       <Typography
                         variant="body1"
@@ -387,9 +394,12 @@ const Contact: React.FC = () => {
                           lineHeight: 1.6,
                         }}
                       >
-                        Petrotreatment For Petroleum and Environmental Services<br />
-                        5C Buildings, City, Kom Ghorab<br />
-                        Old Cairo, Cairo Governorate 4243205, Egypt<br />
+                        {t('contact.headquarters.address').split('\n').map((line: string, index: number) => (
+                          <React.Fragment key={index}>
+                            {line}
+                            {index < t('contact.headquarters.address').split('\n').length - 1 && <br />}
+                          </React.Fragment>
+                        ))}
           
                       </Typography>
                     </Box>
@@ -413,7 +423,7 @@ const Contact: React.FC = () => {
                         },
                       }}
                     >
-                      Open in Maps
+                      {t('contact.headquarters.openMaps')}
                     </Button>
                   </Box>
                 </Grid>

@@ -16,33 +16,35 @@ import {
   Factory,
   CheckCircle,
 } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Resources: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const serviceAreas = [
-    { name: 'Coastal Area' },
-    { name: 'North Sinai' },
-    { name: 'South Sinai' },
-    { name: 'The Delta' },
+    { name: t('resources.serviceAreas.coastalArea') },
+    { name: t('resources.serviceAreas.northSinai') },
+    { name: t('resources.serviceAreas.southSinai') },
+    { name: t('resources.serviceAreas.delta') },
   ];
 
   const fleetFeatures = [
     {
       icon: <Security sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Latest Safety Standards',
-      description: 'All vehicles equipped with cutting-edge safety technology and compliance systems'
+      title: t('resources.fleetFeatures.safety.title'),
+      description: t('resources.fleetFeatures.safety.description')
     },
     {
       icon: <LocalShipping sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Specialized Fleet',
-      description: 'Purpose-built vehicles designed for safe contaminated water transportation'
+      title: t('resources.fleetFeatures.fleet.title'),
+      description: t('resources.fleetFeatures.fleet.description')
     },
     {
       icon: <Factory sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: 'Dedicated Treatment Plant',
-      description: 'Custom-built facility specifically designed to serve regional treatment needs'
+      title: t('resources.fleetFeatures.plant.title'),
+      description: t('resources.fleetFeatures.plant.description')
     },
   ];
 
@@ -59,7 +61,7 @@ const Resources: React.FC = () => {
               mb: 2,
             }}
           >
-            Our Resources
+            {t('resources.title')}
           </Typography>
           <Typography
             variant="h6"
@@ -70,8 +72,7 @@ const Resources: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            State-of-the-art equipment and facilities designed to provide comprehensive 
-            waste management solutions across key regions
+            {t('resources.subtitle')}
           </Typography>
         </Box>
 
@@ -87,7 +88,7 @@ const Resources: React.FC = () => {
                   mb: 3,
                 }}
               >
-                Advanced Fleet & Infrastructure
+                {t('about.stats.advancedFleet')}
               </Typography>
               
               <Typography
@@ -99,9 +100,7 @@ const Resources: React.FC = () => {
                   fontSize: '1.1rem',
                 }}
               >
-                Our company has prepared a <strong>fleet of vehicles equipped with the latest safety standards</strong> to 
-                transport contaminated water to the treatment plant that we will establish specifically to serve 
-                the coastal area, North Sinai, South Sinai, and the Delta.
+                {t('resources.fleetDescription')}
               </Typography>
 
               <Box sx={{ mb: 4 }}>
@@ -113,7 +112,7 @@ const Resources: React.FC = () => {
                     mb: 2,
                   }}
                 >
-                  Service Coverage Areas
+                  {t('resources.coverageTitle')}
                 </Typography>
                 <Grid container spacing={2}>
                   {serviceAreas.map((area, index) => (

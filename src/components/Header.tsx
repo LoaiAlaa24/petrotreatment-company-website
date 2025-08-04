@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {
   AppBar,
   Toolbar,
@@ -22,6 +23,8 @@ const Header: React.FC = React.memo(() => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
@@ -33,15 +36,33 @@ const Header: React.FC = React.memo(() => {
     { key: 'Services', label: t('navigation.services') },
     { key: 'Projects', label: t('navigation.projects') },
     { key: 'Clients', label: t('navigation.clients') },
+    { key: 'Careers', label: t('navigation.careers') },
     { key: 'Contact', label: t('navigation.contact') },
   ];
+
+  const handleNavigation = (sectionKey: string) => {
+    if (sectionKey === 'Careers') {
+      navigate('/careers');
+    } else {
+      // If not on home page, navigate to home first
+      if (location.pathname !== '/') {
+        navigate('/', { replace: true });
+        // Wait for navigation to complete, then scroll
+        setTimeout(() => {
+          scrollToSection(sectionKey);
+        }, 100);
+      } else {
+        scrollToSection(sectionKey);
+      }
+    }
+    setMobileOpen(false);
+  };
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId.toLowerCase());
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    setMobileOpen(false);
   };
 
   const drawer = (
@@ -57,7 +78,7 @@ const Header: React.FC = React.memo(() => {
           }}
         />
         <Typography variant="h6" sx={{ color: '#1B4B8C', fontWeight: 'bold' }}>
-          PETROTREATMENT
+          {t('company.name')}
         </Typography>
       </Box>
       <List sx={{ px: 2 }}>
@@ -65,7 +86,7 @@ const Header: React.FC = React.memo(() => {
           <ListItem key={item.key} disablePadding sx={{ mb: 1 }}>
             <Button
               fullWidth
-              onClick={() => scrollToSection(item.key)}
+              onClick={() => handleNavigation(item.key)}
               sx={{ 
                 justifyContent: 'center',
                 py: 2,
@@ -91,9 +112,9 @@ const Header: React.FC = React.memo(() => {
           </ListItem>
         ))}
       </List>
-      {/* <Box sx={{ px: 2, mt: 2 }}>
+      <Box sx={{ px: 2, mt: 2 }}>
         <LanguageSwitcher />
-      </Box> */}
+      </Box>
     </Box>
   );
 
@@ -114,7 +135,7 @@ const Header: React.FC = React.memo(() => {
               cursor: 'pointer',
               gap: 2,
             }}
-            onClick={() => scrollToSection('Home')}
+            onClick={() => navigate('/')}
           >
             <img
               src="/logo.png"
@@ -134,7 +155,7 @@ const Header: React.FC = React.memo(() => {
                 letterSpacing: 1,
               }}
             >
-              PETROTREATMENT
+              {t('company.name')}
             </Typography>
           </Box>
           
@@ -152,7 +173,7 @@ const Header: React.FC = React.memo(() => {
               {menuItems.map((item) => (
                 <Button
                   key={item.key}
-                  onClick={() => scrollToSection(item.key)}
+                  onClick={() => handleNavigation(item.key)}
                   sx={{
                     color: '#1B4B8C',
                     fontWeight: 600,
@@ -170,9 +191,9 @@ const Header: React.FC = React.memo(() => {
                   {item.label}
                 </Button>
               ))}
-              {/* <Box sx={{ ml: 2 }}>
+              <Box sx={{ ml: 2 }}>
                 <LanguageSwitcher />
-              </Box> */}
+              </Box>
             </Box>
           )}
         </Toolbar>

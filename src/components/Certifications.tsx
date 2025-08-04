@@ -11,35 +11,37 @@ import {
   useMediaQuery,
 } from '@mui/material';
 import { VerifiedUser } from '@mui/icons-material';
+import { useTranslation } from 'react-i18next';
 
 const Certifications: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+  const { t } = useTranslation();
 
   const certifications = [
     {
-      name: 'ISO 9001:2015',
-      description: 'Quality Management Systems',
+      name: t('certifications.list.iso9001.name'),
+      description: t('certifications.list.iso9001.description'),
       logo: '/certificates/iso 9001.jpeg',
-      details: 'International standard for quality management systems'
+      details: t('certifications.list.iso9001.details')
     },
     {
-      name: 'ISO 14001:2015',  
-      description: 'Environmental Management Systems',
+      name: t('certifications.list.iso14001.name'),
+      description: t('certifications.list.iso14001.description'),
       logo: '/certificates/14001-2015.png',
-      details: 'Environmental management and sustainability standards'
+      details: t('certifications.list.iso14001.details')
     },
     {
-      name: 'ISO 45001:2018',
-      description: 'Occupational Health & Safety',
+      name: t('certifications.list.iso45001.name'),
+      description: t('certifications.list.iso45001.description'),
       logo: '/certificates/iso-45001-2018-occupational-health-and-safety-ohs--500x500.png.webp',
-      details: 'Occupational health and safety management systems'
+      details: t('certifications.list.iso45001.details')
     },
     {
-      name: 'WMRA',
-      description: 'Waste Management Regulatory Authority',
+      name: t('certifications.list.wmra.name'),
+      description: t('certifications.list.wmra.description'),
       logo: '/certificates/WMRA.png',
-      details: 'Authorized waste management and disposal services'
+      details: t('certifications.list.wmra.details')
     },
   ];
 
@@ -57,7 +59,7 @@ const Certifications: React.FC = () => {
                 color: 'text.primary',
               }}
             >
-              Certifications & Compliance
+              {t('certifications.title')}
             </Typography>
           </Box>
           <Typography
@@ -69,9 +71,7 @@ const Certifications: React.FC = () => {
               lineHeight: 1.6,
             }}
           >
-            Our commitment to excellence is demonstrated through internationally recognized 
-            certifications and regulatory compliance, ensuring the highest standards in 
-            quality, safety, and environmental management.
+            {t('certifications.subtitle')}
           </Typography>
         </Box>
 
@@ -169,7 +169,7 @@ const Certifications: React.FC = () => {
               mb: 3,
             }}
           >
-            Committed to Excellence
+            {t('certifications.excellence.title')}
           </Typography>
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>
@@ -188,7 +188,7 @@ const Certifications: React.FC = () => {
                   opacity: 0.9,
                 }}
               >
-                International Certifications
+                {t('about.stats.internationalCertifications')}
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -207,7 +207,7 @@ const Certifications: React.FC = () => {
                   opacity: 0.9,
                 }}
               >
-                Regulatory Compliance
+                {t('certifications.excellence.compliance')}
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -226,7 +226,7 @@ const Certifications: React.FC = () => {
                   opacity: 0.9,
                 }}
               >
-                Years of Certified Operations
+                {t('certifications.excellence.operations')}
               </Typography>
             </Grid>
           </Grid>
@@ -240,8 +240,7 @@ const Certifications: React.FC = () => {
               mx: 'auto',
             }}
           >
-            These certifications reflect our unwavering commitment to maintaining 
-            the highest standards in quality, environmental responsibility, and workplace safety.
+            {t('certifications.excellence.description')}
           </Typography>
         </Box>
       </Container>
