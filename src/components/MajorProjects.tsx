@@ -198,6 +198,7 @@ const MajorProjects: React.FC = () => {
       images: [
         '/projects/dabaa/78cc76ed-3663-4953-af86-c6728ac8aa2d.jpg',
         '/projects/dabaa/e75c903a-761c-4d05-ae51-8cfaed68e1b8.jpg',
+        '/projects/dabaa/bd3f7186-ec61-488e-a725-d9dadbcc12cf.jpg',
       ],
     },
   ];
