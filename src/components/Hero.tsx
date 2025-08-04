@@ -113,14 +113,10 @@ const Hero: React.FC = () => {
                 sx={{
                   color: 'white',
                   fontWeight: 'bold',
-                  fontSize: { xs: '1rem', sm: '1.25rem', md: '1.5rem' },
+                  fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1rem' },
                   letterSpacing: '0.15em',
                   mb: 2,
                   display: 'block',
-                  fontFamily: t('hero.company').includes('شركة') 
-                    ? '"Amiri", "Noto Sans Arabic", "Cairo", "Tajawal", serif' 
-                    : 'inherit',
-                  lineHeight: t('hero.company').includes('شركة') ? 1.8 : 'inherit',
                 }}
               >
                 {t('hero.company')}
