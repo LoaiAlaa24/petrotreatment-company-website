@@ -37,19 +37,19 @@ const Contact: React.FC = () => {
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
-      content: '+20 11 1212 12 94',
+      content: '+20 1112121294',
       subtitle: t('contact.info.phone.subtitle'),
     },
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
-      content: '+20 10 12345 1 67',
+      content: '+20 1012345167',
       subtitle: t('contact.info.phone.subtitle'),
     },
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
-      content: '+20 10 100 160 4 667',
+      content: '+20 1001604667',
       subtitle: t('contact.info.phone.subtitle'),
     },
     {

@@ -95,13 +95,13 @@ const Footer: React.FC = () => {
               <Phone sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
               <Box>
                 <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
-                  +20 11 1212 12 94
+                  +20 1112121294
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
-                  +20 10 12345 1 67
+                  +20 1012345167
                 </Typography>
                 <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
-                  +20 10 100 160 4 667
+                  +20 101001604667
                 </Typography>
               </Box>
             </Box>
