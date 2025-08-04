@@ -37,6 +37,12 @@ const Contact: React.FC = () => {
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
+      content: '+20 1001604667',
+      subtitle: t('contact.info.phone.subtitle'),
+    },
+    {
+      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
+      title: t('contact.info.phone.title'),
       content: '+20 1112121294',
       subtitle: t('contact.info.phone.subtitle'),
     },
@@ -44,12 +50,6 @@ const Contact: React.FC = () => {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
       content: '+20 1012345167',
-      subtitle: t('contact.info.phone.subtitle'),
-    },
-    {
-      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: t('contact.info.phone.title'),
-      content: '+20 1001604667',
       subtitle: t('contact.info.phone.subtitle'),
     },
     {
