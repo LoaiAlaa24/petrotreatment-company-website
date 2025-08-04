@@ -112,11 +112,12 @@ const Hero: React.FC = () => {
                 variant="overline"
                 sx={{
                   color: 'white',
-                  fontWeight: 'bold',
-                  fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1rem' },
+                  fontWeight: t('hero.company').includes('شركة') ? 400 : 'bold',
+                  fontSize: { xs: '0.9rem', sm: '1.1rem', md: '1.25rem' },
                   letterSpacing: '0.15em',
                   mb: 2,
                   display: 'block',
+                  lineHeight: t('hero.company').includes('شركة') ? 1.6 : 'inherit',
                 }}
               >
                 {t('hero.company')}
