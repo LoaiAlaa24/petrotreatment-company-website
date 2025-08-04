@@ -103,54 +103,6 @@ const Resources: React.FC = () => {
                 {t('resources.fleetDescription')}
               </Typography>
 
-              <Box sx={{ mb: 4 }}>
-                <Typography
-                  variant="h6"
-                  sx={{
-                    fontWeight: 'bold',
-                    color: 'text.primary',
-                    mb: 2,
-                  }}
-                >
-                  {t('resources.coverageTitle')}
-                </Typography>
-                <Grid container spacing={2}>
-                  {serviceAreas.map((area, index) => (
-                    <Grid item xs={6} sm={3} key={index}>
-                      <Card
-                        sx={{
-                          p: 3,
-                          textAlign: 'center',
-                          border: '2px solid',
-                          borderColor: 'primary.light',
-                          '&:hover': {
-                            borderColor: 'primary.main',
-                            transform: 'translateY(-2px)',
-                          },
-                          transition: 'all 0.3s ease',
-                        }}
-                      >
-                        <LocationOn 
-                          sx={{ 
-                            fontSize: 40, 
-                            color: 'primary.main',
-                            mb: 1 
-                          }} 
-                        />
-                        <Typography
-                          variant="body2"
-                          sx={{
-                            fontWeight: 'bold',
-                            color: 'text.primary',
-                          }}
-                        >
-                          {area.name}
-                        </Typography>
-                      </Card>
-                    </Grid>
-                  ))}
-                </Grid>
-              </Box>
             </Box>
           </Grid>
 
