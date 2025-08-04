@@ -33,24 +33,15 @@ const Contact: React.FC = () => {
   });
   const [showSuccess, setShowSuccess] = useState(false);
 
+  const phoneNumbers = ['+20 1001604667', '+20 1112121294', '+20 1012345167'];
+  
   const contactInfo = [
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
-      content: '+20 1001604667',
+      content: phoneNumbers,
       subtitle: t('contact.info.phone.subtitle'),
-    },
-    {
-      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: t('contact.info.phone.title'),
-      content: '+20 1112121294',
-      subtitle: t('contact.info.phone.subtitle'),
-    },
-    {
-      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
-      title: t('contact.info.phone.title'),
-      content: '+20 1012345167',
-      subtitle: t('contact.info.phone.subtitle'),
+      isPhone: true,
     },
     {
       icon: <Email sx={{ fontSize: 40, color: 'primary.main' }} />,
@@ -149,22 +140,38 @@ const Contact: React.FC = () => {
                   >
                     {info.title}
                   </Typography>
-                  <Typography
-                    variant="body1"
-                    sx={{
-                      color: 'text.primary',
-                      fontWeight: 500,
-                      mb: 1,
-                      ...((index === 0 || index === 1 || index === 2) && {
-                        direction: 'ltr',
-                        textAlign: 'center',
-                        fontFamily: 'monospace',
-                        unicodeBidi: 'embed',
-                      }),
-                    }}
-                  >
-                    {info.content}
-                  </Typography>
+                  {info.isPhone ? (
+                    <Box>
+                      {info.content.map((phone: string, phoneIndex: number) => (
+                        <Typography
+                          key={phoneIndex}
+                          variant="body1"
+                          sx={{
+                            color: 'text.primary',
+                            fontWeight: 500,
+                            mb: phoneIndex < info.content.length - 1 ? 0.5 : 1,
+                            direction: 'ltr',
+                            textAlign: 'center',
+                            fontFamily: 'monospace',
+                            unicodeBidi: 'embed',
+                          }}
+                        >
+                          {phone}
+                        </Typography>
+                      ))}
+                    </Box>
+                  ) : (
+                    <Typography
+                      variant="body1"
+                      sx={{
+                        color: 'text.primary',
+                        fontWeight: 500,
+                        mb: 1,
+                      }}
+                    >
+                      {info.content}
+                    </Typography>
+                  )}
                   <Typography
                     variant="body2"
                     sx={{

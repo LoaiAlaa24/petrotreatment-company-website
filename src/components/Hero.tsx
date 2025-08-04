@@ -113,7 +113,7 @@ const Hero: React.FC = () => {
                 sx={{
                   color: 'white',
                   fontWeight: 'bold',
-                  fontSize: '1rem',
+                  fontSize: { xs: '0.75rem', sm: '0.9rem', md: '1rem' },
                   letterSpacing: '0.15em',
                   mb: 2,
                   display: 'block',
@@ -147,6 +147,7 @@ const Hero: React.FC = () => {
                   textShadow: '2px 2px 4px rgba(0,0,0,0.7)',
                   maxWidth: 600,
                   mx: { xs: 'auto', lg: 0 },
+                  fontSize: { xs: '1rem', sm: '1.15rem', md: '1.25rem' },
                 }}
               >
                 {t('hero.subtitle')}
@@ -168,7 +169,7 @@ const Hero: React.FC = () => {
                             fontWeight: 'bold',
                             mb: 0.5,
                             textShadow: '3px 3px 6px rgba(0,0,0,0.8)',
-                            fontSize: { xs: '2rem', md: '3rem' },
+                            fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem' },
                           }}
                         >
                           {stat.number}
@@ -177,7 +178,7 @@ const Hero: React.FC = () => {
                           variant="body1"
                           sx={{
                             color: 'rgba(255, 255, 255, 0.9)',
-                            fontSize: '0.9rem',
+                            fontSize: { xs: '0.75rem', sm: '0.85rem', md: '0.9rem' },
                             textShadow: '2px 2px 4px rgba(0,0,0,0.7)',
                             fontWeight: 500,
                           }}
@@ -205,7 +206,7 @@ const Hero: React.FC = () => {
                   sx={{
                     px: 4,
                     py: 1.5,
-                    fontSize: '1.1rem',
+                    fontSize: { xs: '0.95rem', sm: '1rem', md: '1.1rem' },
                     fontWeight: 700,
                     borderRadius: 2,
                     textTransform: 'none',
@@ -230,7 +231,7 @@ const Hero: React.FC = () => {
                   sx={{
                     px: 4,
                     py: 1.5,
-                    fontSize: '1.1rem',
+                    fontSize: { xs: '0.95rem', sm: '1rem', md: '1.1rem' },
                     fontWeight: 700,
                     borderRadius: 2,
                     textTransform: 'none',
