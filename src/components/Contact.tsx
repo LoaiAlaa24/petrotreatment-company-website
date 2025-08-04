@@ -37,7 +37,19 @@ const Contact: React.FC = () => {
     {
       icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
       title: t('contact.info.phone.title'),
-      content: '+20 100 160 4 667',
+      content: '+20 11 1212 12 94',
+      subtitle: t('contact.info.phone.subtitle'),
+    },
+    {
+      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
+      title: t('contact.info.phone.title'),
+      content: '+20 10 12345 1 67',
+      subtitle: t('contact.info.phone.subtitle'),
+    },
+    {
+      icon: <Phone sx={{ fontSize: 40, color: 'primary.main' }} />,
+      title: t('contact.info.phone.title'),
+      content: '+20 10 100 160 4 667',
       subtitle: t('contact.info.phone.subtitle'),
     },
     {
@@ -143,7 +155,7 @@ const Contact: React.FC = () => {
                       color: 'text.primary',
                       fontWeight: 500,
                       mb: 1,
-                      ...(index === 0 && {
+                      ...((index === 0 || index === 1 || index === 2) && {
                         direction: 'ltr',
                         textAlign: 'center',
                         fontFamily: 'monospace',

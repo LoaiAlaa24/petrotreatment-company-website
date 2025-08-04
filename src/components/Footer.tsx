@@ -93,9 +93,17 @@ const Footer: React.FC = () => {
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
-              <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-                +20 100 160 4 667
-              </Typography>
+              <Box>
+                <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
+                  +20 11 1212 12 94
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
+                  +20 10 12345 1 67
+                </Typography>
+                <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
+                  +20 10 100 160 4 667
+                </Typography>
+              </Box>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Email sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
