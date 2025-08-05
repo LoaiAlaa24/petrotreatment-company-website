@@ -90,29 +90,6 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
           ))}
         </Box>
 
-        {/* Gradient Overlays for better text readability */}
-        <Box
-          sx={{
-            position: 'absolute',
-            top: 0,
-            left: 0,
-            right: 0,
-            height: '40%',
-            background: 'linear-gradient(180deg, rgba(0,0,0,0.3) 0%, transparent 100%)',
-            pointerEvents: 'none',
-          }}
-        />
-        <Box
-          sx={{
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
-            height: '40%',
-            background: 'linear-gradient(0deg, rgba(0,0,0,0.4) 0%, transparent 100%)',
-            pointerEvents: 'none',
-          }}
-        />
         
         {/* Navigation Arrows */}
         <IconButton
