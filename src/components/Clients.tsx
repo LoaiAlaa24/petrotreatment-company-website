@@ -27,7 +27,7 @@ const Clients: React.FC = () => {
     },
     {
       name: 'ASE',
-      logo: '/clients/ase.png',
+      logo: '/clients/ase.jpeg',
     },
     {
       name: 'Edison',
