@@ -88,8 +88,7 @@ const Footer: React.FC = () => {
                 maxWidth: 400,
               }}
             >
-              Leading provider of comprehensive oil and waste management services, 
-              committed to excellence, safety, and environmental sustainability.
+              {t('footer.description')}
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
               <Phone sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
