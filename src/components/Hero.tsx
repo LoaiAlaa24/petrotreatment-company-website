@@ -159,7 +159,7 @@ const Hero: React.FC = () => {
                   {[
                     { number: '28+', label: t('hero.stats.experience') },
                     { number: '4', label: t('hero.stats.certifications') },
-                    { number: '14+', label: t('hero.stats.clients') }
+                    { number: '21+', label: t('hero.stats.clients') }
                   ].map((stat, index) => (
                     <Grid item xs={6} sm={3} key={index}>
                       <Box sx={{ textAlign: 'center' }}>

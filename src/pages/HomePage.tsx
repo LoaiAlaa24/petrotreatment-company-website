@@ -11,6 +11,7 @@ const Resources = React.lazy(() => import('../components/Resources'));
 const Certifications = React.lazy(() => import('../components/Certifications'));
 const Achievements = React.lazy(() => import('../components/Achievements'));
 const Clients = React.lazy(() => import('../components/Clients'));
+const Media = React.lazy(() => import('../components/Media'));
 const MajorProjects = React.lazy(() => import('../components/MajorProjects'));
 const Contact = React.lazy(() => import('../components/Contact'));
 const Footer = React.lazy(() => import('../components/Footer'));
@@ -42,6 +43,7 @@ const HomePage: React.FC = () => {
         <Achievements />
         <Resources />
         <MajorProjects />
+        <Media />
         <Contact />
         <Footer />
       </Suspense>

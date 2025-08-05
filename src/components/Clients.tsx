@@ -73,6 +73,30 @@ const Clients: React.FC = () => {
       name: 'Trest',
       logo: '/clients/trest.jpeg',
     },
+    {
+      name: 'NOSPCO',
+      logo: '/clients/NOSPCO وظائف خالية فى شركة شمال سيناء للبترول.jpg',
+    },
+    {
+      name: 'GE',
+      logo: '/clients/ge.jpg',
+    },
+    {
+      name: 'Petromaint',
+      logo: '/clients/petromaint.jpeg',
+    },
+    {
+      name: 'Al-Siham Petroleum',
+      logo: '/clients/شركة-السهام-البترولية.jpg',
+    },
+    {
+      name: 'Additional Client',
+      logo: '/clients/٢٠٢١١٢٠٣_١٥٣٨٢٢.jpg',
+    },
+    {
+      name: 'Client Partner',
+      logo: '/clients/PSX_20210817_040154.jpg',
+    },
   ];
 
   return (

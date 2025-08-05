@@ -335,7 +335,7 @@ const Achievements: React.FC = () => {
                           mb: 3,
                         }}
                       >
-                        Project: {achievement.project}
+{t('achievements.project')}: {achievement.project}
                       </Typography>
                     </Box>
 

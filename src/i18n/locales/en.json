@@ -204,7 +204,7 @@
     "headquarters": {
       "title": "Our Cairo Headquarters",
       "location": "Headquarters Location",
-      "address": "Petrotreatment For Petroleum and Environmental Services\n5C Buildings, City, Kom Ghorab\nOld Cairo, Cairo Governorate 4243205, Egypt",
+      "address": "Petrotreatment For Petroleum and Environmental Services\nTower 5S, Al-Fustat Main Street - First Neighborhood - New Fustat City - In front of the Museum of Civilizations - Old Cairo, Egypt",
       "openMaps": "Open in Maps"
     }
   },
@@ -294,6 +294,7 @@
   "achievements": {
     "title": "Achievements",
     "subtitle": "Our achievements in national and international competitions, demonstrating our commitment to excellence and innovation in environmental solutions.",
+    "project": "Project",
     "list": {
       "2023": {
         "year": "2023",
@@ -342,6 +343,15 @@
         "description": "Custom-built facility specifically designed to serve regional treatment needs"
       }
     }
+  },
+  "media": {
+    "title": "Media",
+    "subtitle": "Media coverage and press mentions highlighting Petrotreatment's achievements and contributions to environmental sustainability.",
+    "newsLabel": "News",
+    "socialLabel": "Social Media",
+    "videoLabel": "Video",
+    "source": "Source",
+    "readMore": "Read More"
   },
   "careers": {
     "header": {
