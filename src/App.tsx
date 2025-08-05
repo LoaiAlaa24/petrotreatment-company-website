@@ -102,6 +102,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/careers" element={<CareersPage />} />
+            <Route path="*" element={<HomePage />} />
           </Routes>
         </Router>
       </ThemeProvider>
