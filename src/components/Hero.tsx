@@ -28,28 +28,11 @@ const Hero: React.FC = () => {
   ];
 
   useEffect(() => {
-    // Optimized image preloading with priority
-    const preloadImages = async () => {
-      // Preload first image immediately (high priority)
-      const firstImg = new Image();
-      firstImg.src = heroImages[0];
-      firstImg.loading = 'eager';
-      
-      // Preload remaining images with lower priority
-      heroImages.slice(1).forEach((src, index) => {
-        const img = new Image();
-        img.src = src;
-        img.loading = 'lazy';
-        // Stagger loading to avoid overwhelming the network
-        setTimeout(() => {
-          img.decode().catch(() => {
-            console.warn(`Failed to decode image: ${src}`);
-          });
-        }, index * 100);
-      });
-    };
-
-    preloadImages();
+    // Preload images for better performance
+    heroImages.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
 
     const timer = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % heroImages.length);
