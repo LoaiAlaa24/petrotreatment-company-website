@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
   });
   const [showSuccess, setShowSuccess] = useState(false);
 
-  const phoneNumbers = ['+20 1001604667', '+20 1112121294', '+20 1012345167'];
+  const phoneNumbers = ['+201001604667', '+201112121294', '+201012345167'];
   
   const contactInfo = [
     {
