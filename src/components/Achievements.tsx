@@ -22,6 +22,8 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const theme = useTheme();
+  const { i18n } = useTranslation();
+  const isRTL = i18n.language === 'ar';
 
   // Auto-advance slides (pause on hover)
   useEffect(() => {
@@ -114,7 +116,7 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
         
         {/* Navigation Arrows */}
         <IconButton
-          onClick={goToPrevious}
+          onClick={isRTL ? goToNext : goToPrevious}
           sx={{
             position: 'absolute',
             left: 16,
@@ -135,11 +137,11 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
             },
           }}
         >
-          <ArrowBackIos sx={{ ml: 0.5 }} />
+          {isRTL ? <ArrowForwardIos /> : <ArrowBackIos sx={{ ml: 0.5 }} />}
         </IconButton>
         
         <IconButton
-          onClick={goToNext}
+          onClick={isRTL ? goToPrevious : goToNext}
           sx={{
             position: 'absolute',
             right: 16,
@@ -160,7 +162,7 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
             },
           }}
         >
-          <ArrowForwardIos />
+          {isRTL ? <ArrowBackIos sx={{ ml: 0.5 }} /> : <ArrowForwardIos />}
         </IconButton>
 
         {/* Modern Slide Indicators */}

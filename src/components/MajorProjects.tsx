@@ -26,6 +26,8 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const theme = useTheme();
+  const { i18n } = useTranslation();
+  const isRTL = i18n.language === 'ar';
 
   useEffect(() => {
     if (isHovered || images.length <= 1) return;
@@ -88,7 +90,7 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
         <>
           {/* Navigation Arrows */}
           <IconButton
-            onClick={goToPrevious}
+            onClick={isRTL ? goToNext : goToPrevious}
             sx={{
               position: 'absolute',
               left: 12,
@@ -106,11 +108,11 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
               },
             }}
           >
-            <ArrowBackIos sx={{ fontSize: 16 }} />
+            {isRTL ? <ArrowForwardIos sx={{ fontSize: 16 }} /> : <ArrowBackIos sx={{ fontSize: 16 }} />}
           </IconButton>
           
           <IconButton
-            onClick={goToNext}
+            onClick={isRTL ? goToPrevious : goToNext}
             sx={{
               position: 'absolute',
               right: 12,
@@ -128,7 +130,7 @@ const ImageCarousel: React.FC<{ images: string[]; alt: string }> = ({ images, al
               },
             }}
           >
-            <ArrowForwardIos sx={{ fontSize: 16 }} />
+            {isRTL ? <ArrowBackIos sx={{ fontSize: 16 }} /> : <ArrowForwardIos sx={{ fontSize: 16 }} />}
           </IconButton>
 
           {/* Slide Indicators */}
