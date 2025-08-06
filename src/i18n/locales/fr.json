@@ -1,0 +1,546 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "clients": "Clients",
+    "careers": "Carrières",
+    "contact": "Contact"
+  },
+  "company": {
+    "name": "PETROTREATMENT"
+  },
+  "hero": {
+    "company": "PETROTREATMENT pour les services pétroliers et environnementaux",
+    "subtitle": "Société par actions égyptienne offrant des services environnementaux certifiés ISO pour le pétrole et le gaz, du nettoyage industriel à la construction d'usines de traitement et aux opérations d'élimination sécurisée",
+    "stats": {
+      "experience": "Années d'expérience",
+      "certifications": "Certifications ISO",
+      "clients": "Clients",
+      "regions": "Régions de service"
+    },
+    "buttons": {
+      "services": "Nos services",
+      "certificates": "Certificats"
+    }
+  },
+  "about": {
+    "title": "À propos de Petrotreatment",
+    "subtitle": "Fondée en 2014 en tant que société par actions égyptienne et s'appuyant sur plus de 28 ans d'expérience combinée, Petrotreatment est un fournisseur leader de services complets de gestion des déchets et de traitement du pétrole, au service de clients majeurs dans les zones côtières, le Sinaï et la région du delta de l'Égypte.",
+    "features": {
+      "certified": {
+        "title": "Certifié ISO",
+        "description": "Certifié ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 et conforme WMRA"
+      },
+      "comprehensive": {
+        "title": "Services complets",
+        "description": "De la collecte des déchets à la construction d'usines de traitement et au traitement des boues pétrolières"
+      },
+      "awarded": {
+        "title": "Récompensé",
+        "description": "Gagnants de concours nationaux avec participation aux conférences climatiques COP28 et COP29"
+      },
+      "trusted": {
+        "title": "Partenaires de confiance",
+        "description": "Au service de clients majeurs incluant Petrobel, Edison, Expro et des compagnies pétrolières leaders"
+      }
+    },
+    "story": {
+      "title": "Notre histoire et mission",
+      "founding": "Petrotreatment a été officiellement fondée en mai 2014 en tant que société par actions égyptienne, s'appuyant sur l'héritage de sociétés sœurs opérant depuis 1996, incluant Petroleum Services, Al Masrya Transport Company et Al Assrya for Petroleum and Environmental Services.",
+      "specialization": "Nous nous spécialisons dans la gestion complète des déchets - de la collecte et du transport au traitement et à l'élimination sécurisée. Nos services incluent le nettoyage de réservoirs industriels, la manipulation des boues, les opérations de traitement du pétrole et la construction d'installations de traitement spécialisées.",
+      "mission": "Avec notre flotte moderne équipée des derniers standards de sécurité et notre usine de traitement dédiée desservant les zones côtières, le Sinaï Nord, le Sinaï Sud et le delta, nous livrons des solutions environnementales qui répondent aux standards internationaux tout en favorisant le développement durable."
+    },
+    "stats": {
+      "yearsExperience": "Années d'expérience combinée",
+      "internationalCertifications": "Certifications internationales",
+      "advancedFleet": "Flotte et infrastructure avancées",
+      "nationalAwards": "Récompenses nationales"
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Solutions complètes pour tous vos besoins de gestion du pétrole et des déchets, livrées par des experts de l'industrie avec un historique prouvé.",
+    "list": {
+      "waste": {
+        "title": "Gestion complète des déchets",
+        "description": "Solutions complètes de gestion des déchets de la collecte à l'élimination sécurisée avec conformité environnementale.",
+        "features": [
+          "Collecte et transport des déchets",
+          "Traitement et transformation",
+          "Opérations d'élimination sécurisée",
+          "Manipulation des déchets dangereux et non dangereux"
+        ]
+      },
+      "construction": {
+        "title": "Construction d'unités de traitement",
+        "description": "Conception et construction d'installations de traitement spécialisées pour différents types de déchets industriels.",
+        "features": [
+          "Construction d'unités de traitement des déchets",
+          "Installations de traitement des déchets dangereux",
+          "Unités de déchets industriels non dangereux",
+          "Unités de traitement d'eau saumâtre pour sites pétroliers et gaziers"
+        ]
+      },
+      "cleaning": {
+        "title": "Services de nettoyage industriel",
+        "description": "Services professionnels de nettoyage et de maintenance pour les installations et équipements industriels.",
+        "features": [
+          "Nettoyage de réservoirs industriels",
+          "Manipulation et transport des boues",
+          "Traitement et élimination des boues pétrolières",
+          "Opérations d'élimination sécurisée"
+        ]
+      },
+      "treatment": {
+        "title": "Opérations de traitement du pétrole",
+        "description": "Services complets de traitement du pétrole du traitement à la commercialisation des produits recyclés.",
+        "features": [
+          "Exécution d'opérations de traitement du pétrole",
+          "Transport et traitement des boues",
+          "Commercialisation des produits traités",
+          "Vente de matériaux recyclés"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Nos usines de traitement",
+    "subtitle": "Présentation de notre expertise dans le traitement d'eau à grande échelle et les solutions environnementales dans les emplacements les plus stratégiques d'Égypte",
+    "portfolio": "PORTEFEUILLE",
+    "labels": {
+      "location": "Emplacement",
+      "objective": "Objectif"
+    },
+    "list": {
+      "sinai": {
+        "title": "Projet d'usine de traitement centrale – Est Qantara",
+        "location": "Zone industrielle, Est Qantara, Gouvernorat d'Ismailia",
+        "objective": "Traitement de l'eau associée à la production de pétrole et de gaz",
+        "description": "Ce projet joue un rôle central dans le Sinaï, compte tenu de son emplacement stratégique au cœur de la région, servant de hub central pour le traitement de l'eau associée à la production de pétrole et de gaz. Soutenu par une équipe dédiée d'experts, il assure l'application des meilleures pratiques pour maximiser l'efficacité et l'impact environnemental."
+      },
+      "dabaa": {
+        "title": "Collaboration avec le côté russe – Réacteur nucléaire d'El-Dabaa",
+        "location": "El Dabaa, Gouvernorat de Matrouh, Égypte",
+        "objective": "Traitement des eaux usées",
+        "description": "Dans ce projet, nous sommes responsables de l'exploitation des usines de traitement dans la zone du réacteur nucléaire d'El-Dabaa. Nos services soutiennent des entreprises internationales leaders, incluant ASE JRC, TREST ROSSEM et SMU1, assurant les plus hauts standards de sécurité, fiabilité et excellence opérationnelle dans un environnement hautement sensible et stratégique."
+      }
+    },
+    "excellence": {
+      "title": "Excellence des projets stratégiques",
+      "subtitle": "Livraison de solutions environnementales de classe mondiale dans les projets d'infrastructure les plus critiques d'Égypte",
+      "stats": {
+        "projects": "Projets majeurs",
+        "projectsSubtitle": "Emplacements stratégiques",
+        "governorates": "Gouvernorats",
+        "governoratesSubtitle": "Zone de couverture",
+        "safety": "Standards de sécurité",
+        "safetySubtitle": "Qualité certifiée",
+        "partners": "Internationaux",
+        "partnersSubtitle": "Partenaires"
+      }
+    },
+    "status": {
+      "completed": "Terminé",
+      "ongoing": "En cours"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Prêt à discuter de vos besoins en gestion du pétrole et des déchets ? Contactez nos experts aujourd'hui.",
+    "info": {
+      "phone": {
+        "title": "Téléphone",
+        "content": "+201001604667",
+        "subtitle": "Appelez-nous à tout moment"
+      },
+      "email": {
+        "title": "E-mail",
+        "content": "info@petrotreatment.com",
+        "subtitle": "Envoyez-nous un message"
+      },
+      "location": {
+        "title": "Emplacement",
+        "content": "Le Caire, Égypte",
+        "subtitle": "Visitez notre bureau"
+      },
+      "hours": {
+        "title": "Heures",
+        "content": "9h00 - 17h00 heure du Caire",
+        "subtitle": "Services professionnels"
+      }
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "company": "Entreprise",
+      "companyLabel": "Entreprise",
+      "phone": "Numéro de téléphone",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "success": "Merci pour votre message ! Nous vous recontacterons bientôt."
+    },
+    "why": {
+      "title": "Pourquoi choisir Petrotreatment ?",
+      "expert": {
+        "title": "Équipe d'experts",
+        "description": "Professionnels de l'industrie avec des décennies d'expérience"
+      },
+      "support": {
+        "title": "Support professionnel",
+        "description": "Support de service complet et assistance"
+      },
+      "results": {
+        "title": "Résultats prouvés",
+        "description": "Historique de projets réussis et de clients satisfaits"
+      },
+      "environmental": {
+        "title": "Focus environnemental",
+        "description": "Solutions durables qui protègent l'environnement"
+      }
+    },
+    "headquarters": {
+      "title": "Notre siège social au Caire",
+      "location": "Emplacement du siège social",
+      "address": "Petrotreatment pour les services pétroliers et environnementaux\nTour 5S, rue principale Al-Fustat - Premier quartier - Nouvelle ville de Fustat - Face au Musée des civilisations - Vieux Caire, Égypte",
+      "openMaps": "Ouvrir dans Maps"
+    }
+  },
+  "footer": {
+    "description": "Société par actions égyptienne offrant des services environnementaux certifiés ISO pour le pétrole et le gaz, du nettoyage industriel à la construction d'usines de traitement et aux opérations d'élimination sécurisée",
+    "quickLinks": "Liens rapides",
+    "services": "Services",
+    "servicesList": {
+      "waste": "Gestion des déchets",
+      "oil": "Traitement du pétrole",
+      "cleaning": "Nettoyage industriel",
+      "plants": "Usines de traitement"
+    },
+    "copyright": "Petrotreatment. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions de service"
+  },
+  "certifications": {
+    "title": "Certifications et conformité",
+    "subtitle": "Notre engagement envers l'excellence est démontré par des certifications internationalement reconnues et la conformité réglementaire, assurant les plus hauts standards de qualité, sécurité et gestion environnementale.",
+    "list": {
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "description": "Systèmes de gestion de la qualité",
+        "details": "Standard international pour les systèmes de gestion de la qualité"
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "description": "Systèmes de gestion environnementale",
+        "details": "Standards de gestion environnementale et de durabilité"
+      },
+      "iso45001": {
+        "name": "ISO 45001:2018",
+        "description": "Santé et sécurité au travail",
+        "details": "Systèmes de gestion de la santé et sécurité au travail"
+      },
+      "wmra": {
+        "name": "WMRA",
+        "description": "Autorité de régulation de la gestion des déchets",
+        "details": "Services autorisés de gestion et d'élimination des déchets"
+      }
+    },
+    "excellence": {
+      "title": "Engagé vers l'excellence",
+      "compliance": "Conformité réglementaire",
+      "operations": "Années d'opérations certifiées",
+      "description": "Ces certifications reflètent notre engagement inébranlable à maintenir les plus hauts standards de qualité, responsabilité environnementale et sécurité au travail."
+    }
+  },
+  "history": {
+    "title": "Notre voyage à travers le temps",
+    "subtitle": "Des débuts modestes au leadership de l'industrie, découvrez comment Petrotreatment a évolué pour devenir un nom de confiance dans la gestion des déchets et les services environnementaux.",
+    "timeline": {
+      "1996": {
+        "title": "Ère de fondation",
+        "description": "Les sociétés sœurs ont commencé leurs opérations en se concentrant sur le transport des déchets et les services environnementaux",
+        "companies": ["Petroleum Services", "Al Masrya Transport Company", "Al Assrya for Petroleum and Environmental Services"]
+      },
+      "2014": {
+        "title": "Fondation officielle",
+        "description": "Petrotreatment a été officiellement établie, consolidant l'expertise et les capacités sous un même toit",
+        "companies": ["Fondation de Petrotreatment", "Consolidation des services", "Construction d'identité d'entreprise"]
+      },
+      "2018": {
+        "title": "Expansion et croissance",
+        "description": "Expansion majeure des services et de la couverture géographique avec l'obtention des certifications ISO",
+        "companies": ["Certifications ISO", "Expansion géographique", "Développement de la flotte"]
+      },
+      "2024": {
+        "title": "Leadership et innovation",
+        "description": "Leadership continu de l'industrie avec focus sur l'innovation et la durabilité environnementale",
+        "companies": ["Projets stratégiques", "Technologies avancées", "Partenariats internationaux"]
+      }
+    },
+    "journey": {
+      "title": "Notre voyage",
+      "founding": "Petrotreatment a été officiellement fondée en mai 2014, s'appuyant sur l'expérience et les activités de plusieurs sociétés sœurs opérant depuis 1996.",
+      "pioneers": "Ces entreprises pionnières incluent Petroleum Services, Al Masrya Transport Company et Al Assrya for Petroleum and Environmental Services Company - toutes axées sur le transport des déchets et les services environnementaux.",
+      "expansion": "Le voyage du fondateur a commencé avec le transport de déchets industriels et dangereux et s'est étendu grâce à des partenariats stratégiques avec de grandes firmes pétrolières comme Petrobel dans le champ gazier de Zohr.",
+      "since": "Depuis 1996"
+    }
+  },
+  "clients": {
+    "title": "Nos clients et partenaires",
+    "subtitle": "Nous sommes fiers de servir une gamme diverse de clients leaders dans les secteurs du pétrole, du gaz et de l'industrie lourde à travers l'Égypte."
+  },
+  "achievements": {
+    "title": "Réalisations",
+    "subtitle": "Nos réalisations dans les concours nationaux et internationaux, démontrant notre engagement envers l'excellence et l'innovation dans les solutions environnementales.",
+    "project": "Projet",
+    "list": {
+      "2023": {
+        "year": "2023",
+        "title": "CONCOURS NATIONAL de projets verts intelligents et COP28",
+        "project": "Projet d'usine de traitement centrale – Est Qantara",
+        "awards": [
+          "1ère place dans le gouvernorat d'Ismailia (catégorie projets moyens)",
+          "2ème place au niveau national"
+        ],
+        "conference": "Participation à la conférence climatique COP28 à Dubaï, EAU"
+      },
+      "2024": {
+        "year": "2024",
+        "title": "CONCOURS NATIONAL de projets verts intelligents et COP29",
+        "project": "Forêt d'arbres – Est Qantara",
+        "awards": [
+          "2ème place dans le gouvernorat d'Ismailia (catégorie projets moyens)",
+          "3ème place au niveau national"
+        ],
+        "conference": "Participation à la conférence climatique COP29 à Bakou, Azerbaïdjan"
+      }
+    }
+  },
+  "resources": {
+    "title": "Nos ressources et capacités",
+    "subtitle": "Explorez les installations de pointe, l'équipement avancé et les ressources humaines qualifiées qui nous permettent de livrer des services de haute qualité.",
+    "fleetDescription": "Notre entreprise a préparé une flotte de véhicules équipés des derniers standards de sécurité pour transporter l'eau contaminée vers l'usine de traitement que nous établirons spécifiquement pour servir la zone côtière, le Sinaï Nord, le Sinaï Sud et le delta.",
+    "coverageTitle": "Zones de couverture de service",
+    "serviceAreas": {
+      "coastalArea": "Zone côtière",
+      "northSinai": "Sinaï Nord",
+      "southSinai": "Sinaï Sud",
+      "delta": "Le delta"
+    },
+    "fleetFeatures": {
+      "safety": {
+        "title": "Derniers standards de sécurité",
+        "description": "Tous les véhicules équipés de technologie de sécurité de pointe et de systèmes de conformité"
+      },
+      "fleet": {
+        "title": "Flotte spécialisée",
+        "description": "Véhicules construits sur mesure conçus pour le transport sécurisé d'eau contaminée"
+      },
+      "plant": {
+        "title": "Usine de traitement dédiée",
+        "description": "Installation construite sur mesure spécialement conçue pour répondre aux besoins de traitement régionaux"
+      }
+    }
+  },
+  "media": {
+    "title": "Médias",
+    "subtitle": "Couverture médiatique et mentions de presse mettant en évidence les réalisations de Petrotreatment et les contributions à la durabilité environnementale.",
+    "newsLabel": "Actualités",
+    "socialLabel": "Réseaux sociaux",
+    "videoLabel": "Vidéo",
+    "source": "Source",
+    "readMore": "Lire plus",
+    "items": {
+      "0": {
+        "title": "Vidéo de présentation de l'entreprise Petrotreatment",
+        "source": "YouTube"
+      },
+      "1": {
+        "title": "Petrotreatment dans les actualités gouvernementales",
+        "source": "Ministère de la planification et du développement économique"
+      },
+      "2": {
+        "title": "Publication Facebook - Couverture médiatique",
+        "source": "Facebook"
+      },
+      "3": {
+        "title": "Publication Facebook - Activités de l'entreprise",
+        "source": "Facebook"
+      },
+      "4": {
+        "title": "Petrotreatment pour les services pétroliers remporte un prix environnemental",
+        "source": "Journal Al-Mal"
+      },
+      "5": {
+        "title": "Publication Facebook - Réalisations de l'entreprise",
+        "source": "Facebook"
+      },
+      "6": {
+        "title": "Le gouverneur d'Ismailia honore les gagnants du concours de projets verts",
+        "source": "Journal Al-Mal"
+      }
+    }
+  },
+  "careers": {
+    "header": {
+      "subtitle": "REJOIGNEZ NOTRE ÉQUIPE",
+      "title": "Opportunités de carrière",
+      "description": "Rejoignez Petrotreatment et faites partie d'une équipe leader en solutions environnementales. Nous offrons des avantages compétitifs, des opportunités de développement professionnel et la chance de faire un réel impact dans l'industrie."
+    },
+    "search": {
+      "placeholder": "Rechercher des emplois par titre, département ou emplacement...",
+      "noResults": "Aucun poste trouvé correspondant à vos critères de recherche."
+    },
+    "noPositions": {
+      "title": "Aucun poste ouvert",
+      "message": "Nous n'avons actuellement aucun poste ouvert. Veuillez revenir plus tard ou nous suivre sur les réseaux sociaux pour des mises à jour sur les nouvelles opportunités. Nous recherchons toujours des personnes talentueuses pour rejoindre notre équipe !"
+    },
+    "buttons": {
+      "viewDetails": "Voir les détails",
+      "apply": "Postuler maintenant",
+      "close": "Fermer",
+      "cancel": "Annuler",
+      "submit": "Soumettre la candidature"
+    },
+    "details": {
+      "description": "Description du poste",
+      "responsibilities": "Responsabilités clés",
+      "requirements": "Exigences",
+      "benefits": "Avantages"
+    },
+    "application": {
+      "title": "Postuler pour le poste",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Adresse e-mail",
+      "cvUpload": "Télécharger CV/Résumé (PDF, DOC, DOCX)",
+      "message": "Message au responsable",
+      "messagePlaceholder": "Dites-nous pourquoi ce poste vous intéresse et ce qui fait de vous un excellent candidat...",
+      "success": "Votre candidature a été soumise avec succès ! Nous l'examinerons et vous recontacterons bientôt."
+    },
+    "jobs": {
+      "envEngineer": {
+        "title": "Ingénieur environnemental",
+        "department": "Ingénierie",
+        "location": "Le Caire, Égypte",
+        "type": "Temps plein",
+        "experience": "3-5 ans",
+        "description": "Rejoignez notre équipe d'ingénierie pour concevoir et implémenter des solutions environnementales pour les systèmes de gestion des déchets et de traitement. Vous travaillerez sur des projets de pointe qui font une réelle différence dans la protection de l'environnement.",
+        "responsibilities": [
+          "Concevoir des systèmes et processus de traitement environnemental",
+          "Conduire des évaluations d'impact environnemental",
+          "Surveiller la conformité aux réglementations environnementales",
+          "Collaborer avec des équipes transversales sur l'implémentation de projets",
+          "Préparer des rapports techniques et de la documentation"
+        ],
+        "requirements": [
+          "Diplôme de licence en ingénierie environnementale ou domaine connexe",
+          "3-5 ans d'expérience en ingénierie environnementale",
+          "Connaissance des réglementations et standards environnementaux",
+          "Maîtrise des logiciels CAO et outils de modélisation environnementale",
+          "Fortes compétences analytiques et de résolution de problèmes",
+          "Excellentes compétences de communication en arabe et anglais"
+        ],
+        "benefits": [
+          "Salaire compétitif et primes de performance",
+          "Assurance santé complète",
+          "Opportunités de développement professionnel",
+          "Arrangements de travail flexibles",
+          "Congés annuels et congés maladie"
+        ]
+      },
+      "safetySpecialist": {
+        "title": "Spécialiste sécurité",
+        "department": "Santé et sécurité",
+        "location": "Sinaï, Égypte",
+        "type": "Temps plein",
+        "experience": "2-4 ans",
+        "description": "Assurez les plus hauts standards de sécurité dans toutes nos opérations. Vous développerez des protocoles de sécurité, conduirez des formations et maintiendrez notre excellent bilan de sécurité dans la gestion des déchets dangereux.",
+        "responsibilities": [
+          "Développer et implémenter des protocoles et procédures de sécurité",
+          "Conduire des sessions de formation à la sécurité pour les employés",
+          "Effectuer des inspections et audits de sécurité réguliers",
+          "Enquêter sur les incidents et recommander des actions correctives",
+          "Maintenir la documentation et les enregistrements de sécurité"
+        ],
+        "requirements": [
+          "Diplôme de licence en santé et sécurité au travail ou domaine connexe",
+          "2-4 ans d'expérience en sécurité industrielle",
+          "Certification NEBOSH ou IOSH préférée",
+          "Connaissance d'ISO 45001 et réglementations de sécurité",
+          "Forte attention aux détails et compétences organisationnelles",
+          "Capacité à travailler dans des conditions de terrain difficiles"
+        ],
+        "benefits": [
+          "Package salarial compétitif",
+          "Assurance santé et sécurité",
+          "Support de formation et certification",
+          "Allocation de transport",
+          "Opportunités d'avancement de carrière"
+        ]
+      },
+      "projectManager": {
+        "title": "Chef de projet",
+        "department": "Gestion de projet",
+        "location": "Le Caire, Égypte",
+        "type": "Temps plein",
+        "experience": "5-8 ans",
+        "description": "Dirigez des projets environnementaux complexes de la conception à l'achèvement. Vous gérerez des équipes transversales, coordonnerez avec les clients et assurerez que les projets sont livrés à temps et dans le budget.",
+        "responsibilities": [
+          "Gérer plusieurs projets environnementaux simultanément",
+          "Coordonner avec les clients, contractants et équipes internes",
+          "Développer les calendriers de projets, budgets et allocation de ressources",
+          "Surveiller le progrès du projet et gérer les risques",
+          "Assurer les standards de qualité et la conformité réglementaire"
+        ],
+        "requirements": [
+          "Diplôme de licence en ingénierie, affaires ou domaine connexe",
+          "5-8 ans d'expérience en gestion de projet",
+          "Certification PMP préférée",
+          "Expérience dans des projets environnementaux ou de construction",
+          "Fortes compétences de leadership et communication",
+          "Maîtrise des logiciels de gestion de projet"
+        ],
+        "benefits": [
+          "Salaire attractif et structure d'incitation",
+          "Couverture médicale complète",
+          "Support de certification professionnelle",
+          "Voiture d'entreprise ou allocation de transport",
+          "Bonus basés sur la performance"
+        ]
+      },
+      "fieldTechnician": {
+        "title": "Technicien de terrain",
+        "department": "Opérations",
+        "location": "Emplacements multiples",
+        "type": "Temps plein",
+        "experience": "1-3 ans",
+        "description": "Travaillez de manière pratique avec notre équipement de pointe sur le terrain. Vous serez responsable de l'exploitation de l'équipement, de la maintenance et d'assurer des opérations de terrain fluides sur divers sites clients.",
+        "responsibilities": [
+          "Exploiter et maintenir l'équipement de traitement",
+          "Effectuer des inspections de routine et maintenance préventive",
+          "Collecter des échantillons et conduire des tests de terrain",
+          "Documenter les données opérationnelles et activités de maintenance",
+          "Coordonner avec les superviseurs de site et clients"
+        ],
+        "requirements": [
+          "Diplôme technique ou certificat en ingénierie mécanique/chimique",
+          "1-3 ans d'expérience dans les opérations industrielles",
+          "Connaissance des systèmes mécaniques et électriques",
+          "Capacité à travailler dans des environnements extérieurs et difficiles",
+          "Fortes compétences pratiques de résolution de problèmes",
+          "Permis de conduire valide"
+        ],
+        "benefits": [
+          "Taux horaires compétitifs",
+          "Compensation des heures supplémentaires",
+          "Équipement et formation de sécurité fournis",
+          "Couverture d'assurance santé",
+          "Programmes de développement des compétences"
+        ]
+      }
+    }
+  }
+}

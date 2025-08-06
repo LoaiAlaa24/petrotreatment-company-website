@@ -24,6 +24,8 @@ const LanguageSwitcher: React.FC = () => {
     { code: 'ar', name: 'العربية', flag: '🇪🇬' },
     { code: 'ru', name: 'Русский', flag: '🇷🇺' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+    { code: 'fr', name: 'Français', flag: '🇫🇷' },
+    { code: 'zh', name: '中文', flag: '🇨🇳' },
   ];
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];

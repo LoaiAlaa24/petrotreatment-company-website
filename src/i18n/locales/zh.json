@@ -1,0 +1,546 @@
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "services": "服务",
+    "projects": "项目",
+    "clients": "客户",
+    "careers": "职业",
+    "contact": "联系我们"
+  },
+  "company": {
+    "name": "石油处理公司"
+  },
+  "hero": {
+    "company": "石油处理公司石油与环境服务",
+    "subtitle": "埃及股份公司提供ISO认证的石油天然气环境服务，从工业清洁到处理厂建设和安全处置操作",
+    "stats": {
+      "experience": "年经验",
+      "certifications": "ISO认证",
+      "clients": "客户",
+      "regions": "服务区域"
+    },
+    "buttons": {
+      "services": "我们的服务",
+      "certificates": "证书"
+    }
+  },
+  "about": {
+    "title": "关于石油处理公司",
+    "subtitle": "成立于2014年的埃及股份公司，凭借28年以上的综合经验，石油处理公司是综合废物管理和石油处理服务的领先提供商，为埃及沿海地区、西奈半岛和三角洲地区的主要客户提供服务。",
+    "features": {
+      "certified": {
+        "title": "ISO认证",
+        "description": "通过ISO 9001:2015、ISO 14001:2015、ISO 45001:2018认证，符合WMRA标准"
+      },
+      "comprehensive": {
+        "title": "综合服务",
+        "description": "从废物收集到处理厂建设和石油污泥处理"
+      },
+      "awarded": {
+        "title": "获奖企业",
+        "description": "国家竞赛获奖者，参与COP28和COP29气候会议"
+      },
+      "trusted": {
+        "title": "可信赖的合作伙伴",
+        "description": "服务主要客户包括Petrobel、Edison、Expro和领先的石油公司"
+      }
+    },
+    "story": {
+      "title": "我们的故事与使命",
+      "founding": "石油处理公司于2014年5月正式成立为埃及股份公司，建立在自1996年以来运营的姊妹公司的传承基础上，包括石油服务公司、Al Masrya运输公司和Al Assrya石油环境服务公司。",
+      "specialization": "我们专门从事综合废物管理——从收集和运输到处理和安全处置。我们的服务包括工业储罐清洁、污泥处理、石油处理操作和专业处理设施建设。",
+      "mission": "凭借配备最新安全标准的现代化车队和专门为沿海地区、北西奈、南西奈和三角洲提供服务的专用处理厂，我们提供符合国际标准的环境解决方案，同时推动可持续发展。"
+    },
+    "stats": {
+      "yearsExperience": "年综合经验",
+      "internationalCertifications": "国际认证",
+      "advancedFleet": "先进车队和基础设施",
+      "nationalAwards": "国家奖项"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您的所有石油和废物管理需求提供全面解决方案，由具有良好业绩记录的行业专家提供。",
+    "list": {
+      "waste": {
+        "title": "综合废物管理",
+        "description": "从收集到安全处置的完整废物管理解决方案，符合环境合规要求。",
+        "features": [
+          "废物收集和运输",
+          "处理和加工",
+          "安全处置操作",
+          "危险和非危险废物处理"
+        ]
+      },
+      "construction": {
+        "title": "处理装置建设",
+        "description": "为各种工业废物设计和建设专业处理设施。",
+        "features": [
+          "废物处理装置建设",
+          "危险废物处理设施",
+          "非危险工业废物装置",
+          "油气场所盐水处理装置"
+        ]
+      },
+      "cleaning": {
+        "title": "工业清洁服务",
+        "description": "工业设施和设备的专业清洁和维护服务。",
+        "features": [
+          "工业储罐清洁",
+          "污泥处理和运输",
+          "石油污泥处理和处置",
+          "安全处置操作"
+        ]
+      },
+      "treatment": {
+        "title": "石油处理操作",
+        "description": "从处理到回收产品营销的完整石油处理服务。",
+        "features": [
+          "石油处理操作执行",
+          "污泥运输和处理",
+          "处理产品营销",
+          "回收材料销售"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "我们的处理厂",
+    "subtitle": "展示我们在埃及最具战略意义的地点进行大规模水处理和环境解决方案的专业技术",
+    "portfolio": "作品集",
+    "labels": {
+      "location": "位置",
+      "objective": "目标"
+    },
+    "list": {
+      "sinai": {
+        "title": "中央处理厂项目——东坎塔拉",
+        "location": "工业区，东坎塔拉，伊斯梅利亚省",
+        "objective": "处理与石油天然气生产相关的水",
+        "description": "该项目在西奈发挥着关键作用，鉴于其在该地区心脏地带的战略位置，作为处理与石油天然气生产相关水的中央枢纽。在专门专家团队的支持下，确保应用最佳实践以最大化效率和环境影响。"
+      },
+      "dabaa": {
+        "title": "与俄方合作——达巴核反应堆",
+        "location": "达巴，马特鲁省，埃及",
+        "objective": "处理污水",
+        "description": "在这个项目中，我们负责运营达巴核反应堆区域内的处理厂。我们的服务支持领先的国际公司，包括ASE JRC、TREST ROSSEM和SMU1，确保在高度敏感和战略性环境中的最高安全、可靠性和操作卓越标准。"
+      }
+    },
+    "excellence": {
+      "title": "战略项目卓越",
+      "subtitle": "在埃及最关键的基础设施项目中提供世界级的环境解决方案",
+      "stats": {
+        "projects": "主要项目",
+        "projectsSubtitle": "战略地点",
+        "governorates": "省份",
+        "governoratesSubtitle": "覆盖区域",
+        "safety": "安全标准",
+        "safetySubtitle": "认证质量",
+        "partners": "国际",
+        "partnersSubtitle": "合作伙伴"
+      }
+    },
+    "status": {
+      "completed": "已完成",
+      "ongoing": "进行中"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "准备讨论您的石油和废物管理需求？今天就联系我们的专家。",
+    "info": {
+      "phone": {
+        "title": "电话",
+        "content": "+201001604667",
+        "subtitle": "随时致电"
+      },
+      "email": {
+        "title": "电子邮件",
+        "content": "info@petrotreatment.com",
+        "subtitle": "发送消息"
+      },
+      "location": {
+        "title": "位置",
+        "content": "埃及开罗",
+        "subtitle": "访问我们的办公室"
+      },
+      "hours": {
+        "title": "营业时间",
+        "content": "开罗时间上午9点 - 下午5点",
+        "subtitle": "专业服务"
+      }
+    },
+    "form": {
+      "title": "发送消息",
+      "name": "全名",
+      "email": "电子邮件地址",
+      "company": "公司",
+      "companyLabel": "公司",
+      "phone": "电话号码",
+      "message": "消息",
+      "submit": "发送消息",
+      "success": "谢谢您的消息！我们很快会与您联系。"
+    },
+    "why": {
+      "title": "为什么选择石油处理公司？",
+      "expert": {
+        "title": "专家团队",
+        "description": "具有数十年经验的行业专业人士"
+      },
+      "support": {
+        "title": "专业支持",
+        "description": "全面的服务支持和协助"
+      },
+      "results": {
+        "title": "经过验证的结果",
+        "description": "成功项目和满意客户的良好记录"
+      },
+      "environmental": {
+        "title": "环境重点",
+        "description": "保护环境的可持续解决方案"
+      }
+    },
+    "headquarters": {
+      "title": "我们在开罗的总部",
+      "location": "总部位置",
+      "address": "石油处理石油环境服务公司\n5S塔，Al-Fustat主街 - 第一社区 - 新Fustat城 - 文明博物馆对面 - 老开罗，埃及",
+      "openMaps": "在地图中打开"
+    }
+  },
+  "footer": {
+    "description": "埃及股份公司提供ISO认证的石油天然气环境服务，从工业清洁到处理厂建设和安全处置操作",
+    "quickLinks": "快速链接",
+    "services": "服务",
+    "servicesList": {
+      "waste": "废物管理",
+      "oil": "石油处理",
+      "cleaning": "工业清洁",
+      "plants": "处理厂"
+    },
+    "copyright": "石油处理公司。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "certifications": {
+    "title": "认证和合规",
+    "subtitle": "我们对卓越的承诺通过国际公认的认证和监管合规得到展示，确保质量、安全和环境管理的最高标准。",
+    "list": {
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "description": "质量管理体系",
+        "details": "质量管理体系国际标准"
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "description": "环境管理体系",
+        "details": "环境管理和可持续性标准"
+      },
+      "iso45001": {
+        "name": "ISO 45001:2018",
+        "description": "职业健康与安全",
+        "details": "职业健康安全管理体系"
+      },
+      "wmra": {
+        "name": "WMRA",
+        "description": "废物管理监管局",
+        "details": "授权的废物管理和处置服务"
+      }
+    },
+    "excellence": {
+      "title": "致力于卓越",
+      "compliance": "监管合规",
+      "operations": "年认证操作",
+      "description": "这些认证反映了我们在保持质量、环境责任和工作场所安全最高标准方面坚定不移的承诺。"
+    }
+  },
+  "history": {
+    "title": "我们的时光之旅",
+    "subtitle": "从不起眼的开始到行业领导地位，发现石油处理公司如何发展成为废物管理和环境服务领域的可信名称。",
+    "timeline": {
+      "1996": {
+        "title": "创始时代",
+        "description": "姊妹公司开始运营，专注于废物运输和环境服务",
+        "companies": ["石油服务", "Al Masrya运输公司", "Al Assrya石油环境服务"]
+      },
+      "2014": {
+        "title": "正式成立",
+        "description": "石油处理公司正式成立，将专业知识和能力整合在一个屋檐下",
+        "companies": ["石油处理基金会", "服务整合", "企业形象建设"]
+      },
+      "2018": {
+        "title": "扩展与增长",
+        "description": "服务和地理覆盖的重大扩展，获得ISO认证成就",
+        "companies": ["ISO认证", "地理扩张", "车队发展"]
+      },
+      "2024": {
+        "title": "领导力与创新",
+        "description": "持续的行业领导地位，专注于创新和环境可持续性",
+        "companies": ["战略项目", "先进技术", "国际伙伴关系"]
+      }
+    },
+    "journey": {
+      "title": "我们的旅程",
+      "founding": "石油处理公司于2014年5月正式成立，建立在自1996年以来运营的多家姊妹公司的经验和活动基础上。",
+      "pioneers": "这些先驱企业包括石油服务公司、Al Masrya运输公司和Al Assrya石油环境服务公司——都专注于废物运输和环境服务。",
+      "expansion": "创始人的旅程始于运输工业和危险废物，并通过与Petrobel等主要石油公司在Zohr气田的战略伙伴关系得到扩展。",
+      "since": "自1996年以来"
+    }
+  },
+  "clients": {
+    "title": "我们的客户和合作伙伴",
+    "subtitle": "我们自豪地为埃及各地石油天然气和重工业部门的多样化领先客户提供服务。"
+  },
+  "achievements": {
+    "title": "成就",
+    "subtitle": "我们在国内外竞赛中的成就，展示了我们对环境解决方案卓越和创新的承诺。",
+    "project": "项目",
+    "list": {
+      "2023": {
+        "year": "2023",
+        "title": "智能绿色项目全国竞赛和COP28",
+        "project": "中央处理厂项目——东坎塔拉",
+        "awards": [
+          "伊斯梅利亚省第一名（中型项目类别）",
+          "全国第二名"
+        ],
+        "conference": "参加在阿联酋迪拜举行的COP28气候会议"
+      },
+      "2024": {
+        "year": "2024",
+        "title": "智能绿色项目全国竞赛和COP29",
+        "project": "树林——东坎塔拉",
+        "awards": [
+          "伊斯梅利亚省第二名（中型项目类别）",
+          "全国第三名"
+        ],
+        "conference": "参加在阿塞拜疆巴库举行的COP29气候会议"
+      }
+    }
+  },
+  "resources": {
+    "title": "我们的资源和能力",
+    "subtitle": "探索最先进的设施、先进设备和合格人力资源，使我们能够提供高质量的服务。",
+    "fleetDescription": "我们公司准备了配备最新安全标准的车队，将污染水运输到我们将专门建立的处理厂，以服务沿海地区、北西奈、南西奈和三角洲。",
+    "coverageTitle": "服务覆盖区域",
+    "serviceAreas": {
+      "coastalArea": "沿海地区",
+      "northSinai": "北西奈",
+      "southSinai": "南西奈",
+      "delta": "三角洲"
+    },
+    "fleetFeatures": {
+      "safety": {
+        "title": "最新安全标准",
+        "description": "所有车辆都配备了尖端安全技术和合规系统"
+      },
+      "fleet": {
+        "title": "专业车队",
+        "description": "专门建造的车辆，设计用于安全的污染水运输"
+      },
+      "plant": {
+        "title": "专用处理厂",
+        "description": "专门建造的设施，专为满足区域处理需求而设计"
+      }
+    }
+  },
+  "media": {
+    "title": "媒体",
+    "subtitle": "媒体报道和新闻提及，突出石油处理公司的成就和对环境可持续性的贡献。",
+    "newsLabel": "新闻",
+    "socialLabel": "社交媒体",
+    "videoLabel": "视频",
+    "source": "来源",
+    "readMore": "阅读更多",
+    "items": {
+      "0": {
+        "title": "石油处理公司介绍视频",
+        "source": "YouTube"
+      },
+      "1": {
+        "title": "石油处理公司在政府新闻中",
+        "source": "规划和经济发展部"
+      },
+      "2": {
+        "title": "Facebook帖子 - 媒体报道",
+        "source": "Facebook"
+      },
+      "3": {
+        "title": "Facebook帖子 - 公司活动",
+        "source": "Facebook"
+      },
+      "4": {
+        "title": "石油处理石油服务公司获得环境奖",
+        "source": "Al-Mal报纸"
+      },
+      "5": {
+        "title": "Facebook帖子 - 公司成就",
+        "source": "Facebook"
+      },
+      "6": {
+        "title": "伊斯梅利亚省长表彰绿色项目竞赛获奖者",
+        "source": "Al-Mal报纸"
+      }
+    }
+  },
+  "careers": {
+    "header": {
+      "subtitle": "加入我们的团队",
+      "title": "职业机会",
+      "description": "加入石油处理公司，成为环境解决方案领先团队的一部分。我们提供有竞争力的福利、专业发展机会和在行业中产生真正影响的机会。"
+    },
+    "search": {
+      "placeholder": "按职位、部门或地点搜索工作...",
+      "noResults": "没有找到符合您搜索条件的职位。"
+    },
+    "noPositions": {
+      "title": "没有空缺职位",
+      "message": "我们目前没有空缺职位。请稍后再查看或在社交媒体上关注我们，以获得新机会的更新。我们一直在寻找有才华的人加入我们的团队！"
+    },
+    "buttons": {
+      "viewDetails": "查看详情",
+      "apply": "立即申请",
+      "close": "关闭",
+      "cancel": "取消",
+      "submit": "提交申请"
+    },
+    "details": {
+      "description": "工作描述",
+      "responsibilities": "主要职责",
+      "requirements": "要求",
+      "benefits": "福利"
+    },
+    "application": {
+      "title": "申请职位",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "电子邮件地址",
+      "cvUpload": "上传简历（PDF、DOC、DOCX）",
+      "message": "给经理的消息",
+      "messagePlaceholder": "告诉我们您为什么对这个职位感兴趣，是什么让您成为一个很好的候选人...",
+      "success": "您的申请已成功提交！我们将审查并很快与您联系。"
+    },
+    "jobs": {
+      "envEngineer": {
+        "title": "环境工程师",
+        "department": "工程",
+        "location": "埃及开罗",
+        "type": "全职",
+        "experience": "3-5年",
+        "description": "加入我们的工程团队，为废物管理和处理系统设计和实施环境解决方案。您将从事前沿项目，为环境保护做出真正的贡献。",
+        "responsibilities": [
+          "设计环境处理系统和流程",
+          "进行环境影响评估",
+          "监督环境法规的合规性",
+          "与跨职能团队合作项目实施",
+          "准备技术报告和文档"
+        ],
+        "requirements": [
+          "环境工程或相关领域学士学位",
+          "3-5年环境工程经验",
+          "了解环境法规和标准",
+          "熟练使用CAD软件和环境建模工具",
+          "强大的分析和解决问题的能力",
+          "优秀的阿拉伯语和英语沟通技能"
+        ],
+        "benefits": [
+          "有竞争力的薪水和绩效奖金",
+          "全面的健康保险",
+          "专业发展机会",
+          "灵活的工作安排",
+          "年假和病假"
+        ]
+      },
+      "safetySpecialist": {
+        "title": "安全专员",
+        "department": "健康与安全",
+        "location": "埃及西奈",
+        "type": "全职",
+        "experience": "2-4年",
+        "description": "确保我们所有操作的最高安全标准。您将制定安全协议、进行培训，并在危险废物管理中维护我们出色的安全记录。",
+        "responsibilities": [
+          "制定和实施安全协议和程序",
+          "为员工进行安全培训",
+          "进行定期安全检查和审计",
+          "调查事故并建议纠正措施",
+          "维护安全文档和记录"
+        ],
+        "requirements": [
+          "职业健康安全或相关领域学士学位",
+          "2-4年工业安全经验",
+          "优先考虑NEBOSH或IOSH认证",
+          "了解ISO 45001和安全法规",
+          "强烈的细节关注和组织能力",
+          "能够在具有挑战性的现场条件下工作"
+        ],
+        "benefits": [
+          "有竞争力的薪资包",
+          "健康安全保险",
+          "培训和认证支持",
+          "交通津贴",
+          "职业发展机会"
+        ]
+      },
+      "projectManager": {
+        "title": "项目经理",
+        "department": "项目管理",
+        "location": "埃及开罗",
+        "type": "全职",
+        "experience": "5-8年",
+        "description": "从构思到完成领导复杂的环境项目。您将管理跨职能团队，与客户协调，确保项目按时按预算交付。",
+        "responsibilities": [
+          "同时管理多个环境项目",
+          "与客户、承包商和内部团队协调",
+          "制定项目时间表、预算和资源配置",
+          "监控项目进度和管理风险",
+          "确保质量标准和监管合规"
+        ],
+        "requirements": [
+          "工程、商业或相关领域学士学位",
+          "5-8年项目管理经验",
+          "优先考虑PMP认证",
+          "在环境或建设项目方面的经验",
+          "强大的领导和沟通技能",
+          "熟练使用项目管理软件"
+        ],
+        "benefits": [
+          "有吸引力的薪水和激励结构",
+          "全面的医疗保险",
+          "专业认证支持",
+          "公司用车或交通津贴",
+          "基于绩效的奖金"
+        ]
+      },
+      "fieldTechnician": {
+        "title": "现场技术员",
+        "department": "运营",
+        "location": "多个地点",
+        "type": "全职",
+        "experience": "1-3年",
+        "description": "在现场与我们最先进的设备进行实际操作。您将负责设备操作、维护，确保各个客户站点的顺利现场操作。",
+        "responsibilities": [
+          "操作和维护处理设备",
+          "进行常规检查和预防性维护",
+          "收集样品并进行现场测试",
+          "记录操作数据和维护活动",
+          "与现场主管和客户协调"
+        ],
+        "requirements": [
+          "机械/化学工程技术文凭或证书",
+          "1-3年工业操作经验",
+          "了解机械和电气系统",
+          "能够在户外和具有挑战性的环境中工作",
+          "强大的实际解决问题能力",
+          "有效驾驶执照"
+        ],
+        "benefits": [
+          "有竞争力的小时工资",
+          "加班补偿",
+          "提供安全设备和培训",
+          "健康保险覆盖",
+          "技能发展项目"
+        ]
+      }
+    }
+  }
+}
