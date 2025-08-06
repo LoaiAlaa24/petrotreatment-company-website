@@ -233,7 +233,6 @@ const Achievements: React.FC = () => {
       images: [
         '/achievements/2/PHOTO-2025-03-24-14-11-47.jpg',
         '/achievements/2/A.jpg',
-        '/achievements/2/PHOTO-2024-10-31-02-21-21 2.jpg',
         '/achievements/2/IMG_1821.jpg',
       ],
     },
