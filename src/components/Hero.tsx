@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
     <Box
       id="home"
       sx={{
-        minHeight: { xs: '65vh', md: '100vh' }, // reduced height
+        minHeight: { xs: '85vh', md: '100vh' }, // reduced height
         position: 'relative',
         display: 'flex',
         alignItems: 'center',
