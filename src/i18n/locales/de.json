@@ -1,0 +1,546 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "clients": "Kunden",
+    "careers": "Karriere",
+    "contact": "Kontakt"
+  },
+  "company": {
+    "name": "PETROTREATMENT"
+  },
+  "hero": {
+    "company": "PETROTREATMENT für Erdöl- und Umweltdienstleistungen",
+    "subtitle": "Ägyptische Aktiengesellschaft, die ISO-zertifizierte Umweltdienstleistungen für Öl und Gas anbietet - von der Industriereinigung bis zum Bau von Behandlungsanlagen und sicheren Entsorgungsoperationen",
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "certifications": "ISO-Zertifikate",
+      "clients": "Kunden",
+      "regions": "Serviceregionen"
+    },
+    "buttons": {
+      "services": "Unsere Dienstleistungen",
+      "certificates": "Zertifikate"
+    }
+  },
+  "about": {
+    "title": "Über Petrotreatment",
+    "subtitle": "Gegründet 2014 als ägyptische Aktiengesellschaft und aufbauend auf über 28 Jahren kombinierter Erfahrung, ist Petrotreatment ein führender Anbieter von umfassenden Abfallmanagement- und Ölbehandlungsdienstleistungen, der große Kunden in Ägyptens Küstengebieten, Sinai und der Delta-Region bedient.",
+    "features": {
+      "certified": {
+        "title": "ISO-zertifiziert",
+        "description": "Zertifiziert nach ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 und WMRA-konform"
+      },
+      "comprehensive": {
+        "title": "Umfassende Dienstleistungen",
+        "description": "Von der Abfallsammlung bis zum Bau von Behandlungsanlagen und der Verarbeitung von Ölschlamm"
+      },
+      "awarded": {
+        "title": "Ausgezeichnet",
+        "description": "Gewinner nationaler Wettbewerbe mit Teilnahme an den Klimakonferenzen COP28 und COP29"
+      },
+      "trusted": {
+        "title": "Vertrauenswürdige Partner",
+        "description": "Bedienung großer Kunden einschließlich Petrobel, Edison, Expro und führenden Ölunternehmen"
+      }
+    },
+    "story": {
+      "title": "Unsere Geschichte und Mission",
+      "founding": "Petrotreatment wurde offiziell im Mai 2014 als ägyptische Aktiengesellschaft gegründet und baut auf dem Erbe von Schwesterunternehmen auf, die seit 1996 tätig sind, einschließlich Petroleum Services, Al Masrya Transport Company und Al Assrya for Petroleum and Environmental Services.",
+      "specialization": "Wir spezialisieren uns auf umfassendes Abfallmanagement - von der Sammlung und dem Transport bis zur Behandlung und sicheren Entsorgung. Unsere Dienstleistungen umfassen industrielle Tankreinigung, Schlammbehandlung, Ölbehandlungsoperationen und den Bau spezialisierter Behandlungsanlagen.",
+      "mission": "Mit unserer modernen Flotte, die mit den neuesten Sicherheitsstandards ausgestattet ist, und unserer spezialisierten Behandlungsanlage, die Küstengebiete, Nord-Sinai, Süd-Sinai und das Delta bedient, liefern wir Umweltlösungen, die internationalen Standards entsprechen und gleichzeitig nachhaltige Entwicklung fördern."
+    },
+    "stats": {
+      "yearsExperience": "Jahre kombinierte Erfahrung",
+      "internationalCertifications": "Internationale Zertifizierungen",
+      "advancedFleet": "Fortschrittliche Flotte und Infrastruktur",
+      "nationalAwards": "Nationale Auszeichnungen"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Lösungen für alle Ihre Öl- und Abfallmanagement-Bedürfnisse, geliefert von Branchenexperten mit bewährter Erfolgsbilanz.",
+    "list": {
+      "waste": {
+        "title": "Umfassendes Abfallmanagement",
+        "description": "Vollständige Abfallmanagement-Lösungen von der Sammlung bis zur sicheren Entsorgung mit Umwelt-Compliance.",
+        "features": [
+          "Abfallsammlung und -transport",
+          "Behandlung und Verarbeitung",
+          "Sichere Entsorgungsoperationen",
+          "Handhabung gefährlicher und ungefährlicher Abfälle"
+        ]
+      },
+      "construction": {
+        "title": "Bau von Behandlungsanlagen",
+        "description": "Design und Bau spezialisierter Behandlungsanlagen für verschiedene Arten von Industrieabfällen.",
+        "features": [
+          "Bau von Abfallbehandlungsanlagen",
+          "Anlagen zur Behandlung gefährlicher Abfälle",
+          "Anlagen für ungefährliche Industrieabfälle",
+          "Salzwasserbehandlungsanlagen für Öl- und Gasstandorte"
+        ]
+      },
+      "cleaning": {
+        "title": "Industrielle Reinigungsdienste",
+        "description": "Professionelle Reinigungs- und Wartungsdienste für Industrieanlagen und -ausrüstung.",
+        "features": [
+          "Industrielle Tankreinigung",
+          "Schlammbehandlung und -transport",
+          "Ölschlammbehandlung und -entsorgung",
+          "Sichere Entsorgungsoperationen"
+        ]
+      },
+      "treatment": {
+        "title": "Ölbehandlungsoperationen",
+        "description": "Vollständige Ölbehandlungsdienste von der Verarbeitung bis zur Vermarktung recycelter Produkte.",
+        "features": [
+          "Durchführung von Ölbehandlungsoperationen",
+          "Schlamm-Transport und -Behandlung",
+          "Vermarktung behandelter Produkte",
+          "Verkauf recycelter Materialien"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Unsere Behandlungsanlagen",
+    "subtitle": "Präsentation unserer Expertise in groß angelegter Wasserbehandlung und Umweltlösungen an Ägyptens strategischsten Standorten",
+    "portfolio": "PORTFOLIO",
+    "labels": {
+      "location": "Standort",
+      "objective": "Ziel"
+    },
+    "list": {
+      "sinai": {
+        "title": "Zentrales Behandlungsanlagen-Projekt – Ost-Qantara",
+        "location": "Industriezone, Ost-Qantara, Gouvernement Ismailia",
+        "objective": "Behandlung von Wasser, das mit der Öl- und Gasproduktion verbunden ist",
+        "description": "Dieses Projekt spielt eine zentrale Rolle auf dem Sinai, angesichts seiner strategischen Lage im Herzen der Region und dient als zentraler Knotenpunkt für die Behandlung von Wasser, das mit der Öl- und Gasproduktion verbunden ist. Unterstützt von einem engagierten Expertenteam gewährleistet es die Anwendung bewährter Praktiken zur Maximierung von Effizienz und Umweltauswirkungen."
+      },
+      "dabaa": {
+        "title": "Zusammenarbeit mit der russischen Seite – El-Dabaa Nuklearreaktor",
+        "location": "El Dabaa, Gouvernement Matrouh, Ägypten",
+        "objective": "Behandlung von Abwasser",
+        "description": "In diesem Projekt sind wir für den Betrieb der Behandlungsanlagen im Bereich des El-Dabaa Nuklearreaktors verantwortlich. Unsere Dienstleistungen unterstützen führende internationale Unternehmen, einschließlich ASE JRC, TREST ROSSEM und SMU1, und gewährleisten höchste Standards für Sicherheit, Zuverlässigkeit und operative Exzellenz in einer hochsensiblen und strategischen Umgebung."
+      }
+    },
+    "excellence": {
+      "title": "Strategische Projektexzellenz",
+      "subtitle": "Lieferung von Weltklasse-Umweltlösungen in Ägyptens kritischsten Infrastrukturprojekten",
+      "stats": {
+        "projects": "Große Projekte",
+        "projectsSubtitle": "Strategische Standorte",
+        "governorates": "Gouvernements",
+        "governoratesSubtitle": "Abdeckungsbereich",
+        "safety": "Sicherheitsstandards",
+        "safetySubtitle": "Zertifizierte Qualität",
+        "partners": "Internationale",
+        "partnersSubtitle": "Partner"
+      }
+    },
+    "status": {
+      "completed": "Abgeschlossen",
+      "ongoing": "Laufend"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit, Ihre Öl- und Abfallmanagement-Bedürfnisse zu besprechen? Kontaktieren Sie noch heute unsere Experten.",
+    "info": {
+      "phone": {
+        "title": "Telefon",
+        "content": "+201001604667",
+        "subtitle": "Rufen Sie uns jederzeit an"
+      },
+      "email": {
+        "title": "E-Mail",
+        "content": "info@petrotreatment.com",
+        "subtitle": "Senden Sie uns eine Nachricht"
+      },
+      "location": {
+        "title": "Standort",
+        "content": "Kairo, Ägypten",
+        "subtitle": "Besuchen Sie unser Büro"
+      },
+      "hours": {
+        "title": "Öffnungszeiten",
+        "content": "9:00 - 17:00 Uhr Kairoer Zeit",
+        "subtitle": "Professionelle Dienstleistungen"
+      }
+    },
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "name": "Vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "company": "Unternehmen",
+      "companyLabel": "Unternehmen",
+      "phone": "Telefonnummer",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden."
+    },
+    "why": {
+      "title": "Warum Petrotreatment wählen?",
+      "expert": {
+        "title": "Expertenteam",
+        "description": "Industrieprofis mit jahrzehntelanger Erfahrung"
+      },
+      "support": {
+        "title": "Professionelle Unterstützung",
+        "description": "Umfassende Service-Unterstützung und Hilfe"
+      },
+      "results": {
+        "title": "Bewährte Ergebnisse",
+        "description": "Erfolgsbilanz erfolgreicher Projekte und zufriedener Kunden"
+      },
+      "environmental": {
+        "title": "Umweltfokus",
+        "description": "Nachhaltige Lösungen, die die Umwelt schützen"
+      }
+    },
+    "headquarters": {
+      "title": "Unser Hauptsitz in Kairo",
+      "location": "Standort des Hauptsitzes",
+      "address": "Petrotreatment für Erdöl- und Umweltdienstleistungen\nTurm 5S, Al-Fustat Hauptstraße - Erste Nachbarschaft - Neue Fustat-Stadt - Gegenüber dem Museum der Zivilisationen - Alt-Kairo, Ägypten",
+      "openMaps": "In Karten öffnen"
+    }
+  },
+  "footer": {
+    "description": "Ägyptische Aktiengesellschaft, die ISO-zertifizierte Umweltdienstleistungen für Öl und Gas anbietet - von der Industriereinigung bis zum Bau von Behandlungsanlagen und sicheren Entsorgungsoperationen",
+    "quickLinks": "Schnelle Links",
+    "services": "Dienstleistungen",
+    "servicesList": {
+      "waste": "Abfallmanagement",
+      "oil": "Ölbehandlung",
+      "cleaning": "Industrielle Reinigung",
+      "plants": "Behandlungsanlagen"
+    },
+    "copyright": "Petrotreatment. Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "certifications": {
+    "title": "Zertifizierungen und Compliance",
+    "subtitle": "Unser Engagement für Exzellenz zeigt sich durch international anerkannte Zertifizierungen und regulatorische Compliance, die höchste Standards in Qualität, Sicherheit und Umweltmanagement gewährleisten.",
+    "list": {
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "description": "Qualitätsmanagementsysteme",
+        "details": "Internationaler Standard für Qualitätsmanagementsysteme"
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "description": "Umweltmanagementsysteme",
+        "details": "Umweltmanagement- und Nachhaltigkeitsstandards"
+      },
+      "iso45001": {
+        "name": "ISO 45001:2018",
+        "description": "Arbeitsschutz und Arbeitssicherheit",
+        "details": "Arbeitsschutz- und Arbeitssicherheitsmanagementsysteme"
+      },
+      "wmra": {
+        "name": "WMRA",
+        "description": "Abfallmanagement-Regulierungsbehörde",
+        "details": "Autorisierte Abfallmanagement- und Entsorgungsdienstleistungen"
+      }
+    },
+    "excellence": {
+      "title": "Engagement für Exzellenz",
+      "compliance": "Regulatorische Compliance",
+      "operations": "Jahre zertifizierter Betrieb",
+      "description": "Diese Zertifizierungen spiegeln unser unerschütterliches Engagement wider, höchste Standards in Qualität, Umweltverantwortung und Arbeitsplatzsicherheit aufrechtzuerhalten."
+    }
+  },
+  "history": {
+    "title": "Unsere Reise durch die Zeit",
+    "subtitle": "Von bescheidenen Anfängen zur Branchenführerschaft - entdecken Sie, wie sich Petrotreatment zu einem vertrauenswürdigen Namen im Abfallmanagement und Umweltdienstleistungen entwickelt hat.",
+    "timeline": {
+      "1996": {
+        "title": "Gründungsära",
+        "description": "Schwesterunternehmen begannen mit Operationen, die sich auf Abfalltransport und Umweltdienstleistungen konzentrierten",
+        "companies": ["Petroleum Services", "Al Masrya Transport Company", "Al Assrya for Petroleum and Environmental Services"]
+      },
+      "2014": {
+        "title": "Offizielle Gründung",
+        "description": "Petrotreatment wurde offiziell gegründet und konsolidierte Expertise und Fähigkeiten unter einem Dach",
+        "companies": ["Petrotreatment Gründung", "Service-Konsolidierung", "Aufbau der Unternehmensidentität"]
+      },
+      "2018": {
+        "title": "Expansion und Wachstum",
+        "description": "Große Expansion bei Dienstleistungen und geografischer Abdeckung mit Erreichen von ISO-Zertifizierungen",
+        "companies": ["ISO-Zertifizierungen", "Geografische Expansion", "Flottenentwicklung"]
+      },
+      "2024": {
+        "title": "Führerschaft und Innovation",
+        "description": "Fortgesetzte Branchenführerschaft mit Fokus auf Innovation und Umweltnachhaltigkeit",
+        "companies": ["Strategische Projekte", "Fortschrittliche Technologien", "Internationale Partnerschaften"]
+      }
+    },
+    "journey": {
+      "title": "Unsere Reise",
+      "founding": "Petrotreatment wurde offiziell im Mai 2014 gegründet und baut auf der Erfahrung und den Aktivitäten mehrerer Schwesterunternehmen auf, die seit 1996 tätig sind.",
+      "pioneers": "Diese Pionierunternehmen umfassen Petroleum Services, Al Masrya Transport Company und Al Assrya for Petroleum and Environmental Services Company - alle konzentriert auf Abfalltransport und Umweltdienstleistungen.",
+      "expansion": "Die Reise des Gründers begann mit dem Transport von Industrie- und Gefahrenabfällen und erweiterte sich durch strategische Partnerschaften mit großen Ölunternehmen wie Petrobel im Zohr-Gasfeld.",
+      "since": "Seit 1996"
+    }
+  },
+  "clients": {
+    "title": "Unsere Kunden und Partner",
+    "subtitle": "Wir sind stolz darauf, eine vielfältige Palette führender Kunden in den Öl-, Gas- und Schwerindustrie-Sektoren in ganz Ägypten zu bedienen."
+  },
+  "achievements": {
+    "title": "Erfolge",
+    "subtitle": "Unsere Erfolge in nationalen und internationalen Wettbewerben demonstrieren unser Engagement für Exzellenz und Innovation in Umweltlösungen.",
+    "project": "Projekt",
+    "list": {
+      "2023": {
+        "year": "2023",
+        "title": "NATIONALER WETTBEWERB für intelligente grüne Projekte und COP28",
+        "project": "Zentrales Behandlungsanlagen-Projekt – Ost-Qantara",
+        "awards": [
+          "1. Platz im Gouvernement Ismailia (Kategorie mittlere Projekte)",
+          "2. Platz landesweit"
+        ],
+        "conference": "Teilnahme an der COP28-Klimakonferenz in Dubai, VAE"
+      },
+      "2024": {
+        "year": "2024",
+        "title": "NATIONALER WETTBEWERB für intelligente grüne Projekte und COP29",
+        "project": "Baumwald – Ost-Qantara",
+        "awards": [
+          "2. Platz im Gouvernement Ismailia (Kategorie mittlere Projekte)",
+          "3. Platz landesweit"
+        ],
+        "conference": "Teilnahme an der COP29-Klimakonferenz in Baku, Aserbaidschan"
+      }
+    }
+  },
+  "resources": {
+    "title": "Unsere Ressourcen und Fähigkeiten",
+    "subtitle": "Entdecken Sie die modernsten Einrichtungen, fortschrittliche Ausrüstung und qualifizierte Humanressourcen, die es uns ermöglichen, hochwertige Dienstleistungen zu erbringen.",
+    "fleetDescription": "Unser Unternehmen hat eine Fahrzeugflotte vorbereitet, die mit den neuesten Sicherheitsstandards ausgestattet ist, um kontaminiertes Wasser zu der Behandlungsanlage zu transportieren, die wir speziell zur Bedienung des Küstengebiets, Nord-Sinai, Süd-Sinai und des Deltas errichten werden.",
+    "coverageTitle": "Service-Abdeckungsgebiete",
+    "serviceAreas": {
+      "coastalArea": "Küstengebiet",
+      "northSinai": "Nord-Sinai",
+      "southSinai": "Süd-Sinai",
+      "delta": "Das Delta"
+    },
+    "fleetFeatures": {
+      "safety": {
+        "title": "Neueste Sicherheitsstandards",
+        "description": "Alle Fahrzeuge sind mit modernster Sicherheitstechnologie und Compliance-Systemen ausgestattet"
+      },
+      "fleet": {
+        "title": "Spezialisierte Flotte",
+        "description": "Speziell gebaute Fahrzeuge für den sicheren Transport kontaminierter Wasser"
+      },
+      "plant": {
+        "title": "Spezielle Behandlungsanlage",
+        "description": "Speziell gebaute Anlage, die speziell für regionale Behandlungsbedürfnisse entwickelt wurde"
+      }
+    }
+  },
+  "media": {
+    "title": "Medien",
+    "subtitle": "Medienberichterstattung und Presseerwähnungen, die Petrotreatments Erfolge und Beiträge zur Umweltnachhaltigkeit hervorheben.",
+    "newsLabel": "Nachrichten",
+    "socialLabel": "Soziale Medien",
+    "videoLabel": "Video",
+    "source": "Quelle",
+    "readMore": "Mehr lesen",
+    "items": {
+      "0": {
+        "title": "Petrotreatment Unternehmenspräsentationsvideo",
+        "source": "YouTube"
+      },
+      "1": {
+        "title": "Petrotreatment in Regierungsnachrichten",
+        "source": "Ministerium für Planung und wirtschaftliche Entwicklung"
+      },
+      "2": {
+        "title": "Facebook-Post - Medienberichterstattung",
+        "source": "Facebook"
+      },
+      "3": {
+        "title": "Facebook-Post - Unternehmensaktivitäten",
+        "source": "Facebook"
+      },
+      "4": {
+        "title": "Petrotreatment für Erdöldienstleistungen gewinnt Umweltauszeichnung",
+        "source": "Al-Mal Zeitung"
+      },
+      "5": {
+        "title": "Facebook-Post - Unternehmenserfolge",
+        "source": "Facebook"
+      },
+      "6": {
+        "title": "Gouverneur von Ismailia ehrt Gewinner des Wettbewerbs für grüne Projekte",
+        "source": "Al-Mal Zeitung"
+      }
+    }
+  },
+  "careers": {
+    "header": {
+      "subtitle": "TRETEN SIE UNSEREM TEAM BEI",
+      "title": "Karrieremöglichkeiten",
+      "description": "Treten Sie Petrotreatment bei und werden Sie Teil eines führenden Teams für Umweltlösungen. Wir bieten wettbewerbsfähige Vorteile, Möglichkeiten zur beruflichen Weiterentwicklung und die Chance, einen echten Einfluss in der Branche zu haben."
+    },
+    "search": {
+      "placeholder": "Suche nach Jobs nach Titel, Abteilung oder Standort...",
+      "noResults": "Keine Positionen gefunden, die Ihren Suchkriterien entsprechen."
+    },
+    "noPositions": {
+      "title": "Keine offenen Stellen",
+      "message": "Wir haben derzeit keine offenen Stellen. Bitte schauen Sie später noch einmal vorbei oder folgen Sie uns in den sozialen Medien für Updates zu neuen Möglichkeiten. Wir suchen immer nach talentierten Personen, die unserem Team beitreten möchten!"
+    },
+    "buttons": {
+      "viewDetails": "Details anzeigen",
+      "apply": "Jetzt bewerben",
+      "close": "Schließen",
+      "cancel": "Abbrechen",
+      "submit": "Bewerbung einreichen"
+    },
+    "details": {
+      "description": "Stellenbeschreibung",
+      "responsibilities": "Hauptverantwortlichkeiten",
+      "requirements": "Anforderungen",
+      "benefits": "Vorteile"
+    },
+    "application": {
+      "title": "Für Position bewerben",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "cvUpload": "Lebenslauf hochladen (PDF, DOC, DOCX)",
+      "message": "Nachricht an Manager",
+      "messagePlaceholder": "Erzählen Sie uns, warum Sie sich für diese Position interessieren und was Sie zu einem großartigen Kandidaten macht...",
+      "success": "Ihre Bewerbung wurde erfolgreich eingereicht! Wir werden sie prüfen und uns bald bei Ihnen melden."
+    },
+    "jobs": {
+      "envEngineer": {
+        "title": "Umweltingenieur",
+        "department": "Ingenieurwesen",
+        "location": "Kairo, Ägypten",
+        "type": "Vollzeit",
+        "experience": "3-5 Jahre",
+        "description": "Treten Sie unserem Ingenieursteam bei, um Umweltlösungen für Abfallmanagement- und Behandlungssysteme zu entwerfen und umzusetzen. Sie werden an hochmodernen Projekten arbeiten, die einen echten Unterschied im Umweltschutz machen.",
+        "responsibilities": [
+          "Design von Umweltbehandlungssystemen und -prozessen",
+          "Durchführung von Umweltverträglichkeitsprüfungen",
+          "Überwachung der Einhaltung von Umweltvorschriften",
+          "Zusammenarbeit mit funktionsübergreifenden Teams bei der Projektimplementierung",
+          "Erstellung technischer Berichte und Dokumentation"
+        ],
+        "requirements": [
+          "Bachelor-Abschluss in Umweltingenieurwesen oder verwandtem Bereich",
+          "3-5 Jahre Erfahrung im Umweltingenieurwesen",
+          "Kenntnisse über Umweltvorschriften und -standards",
+          "Kenntnisse in CAD-Software und Umweltmodellierungstools",
+          "Starke analytische und Problemlösungsfähigkeiten",
+          "Ausgezeichnete Kommunikationsfähigkeiten in Arabisch und Englisch"
+        ],
+        "benefits": [
+          "Wettbewerbsfähiges Gehalt und Leistungsprämien",
+          "Umfassende Krankenversicherung",
+          "Möglichkeiten zur beruflichen Weiterentwicklung",
+          "Flexible Arbeitsvereinbarungen",
+          "Jahresurlaub und Krankheitsurlaub"
+        ]
+      },
+      "safetySpecialist": {
+        "title": "Sicherheitsspezialist",
+        "department": "Gesundheit und Sicherheit",
+        "location": "Sinai, Ägypten",
+        "type": "Vollzeit",
+        "experience": "2-4 Jahre",
+        "description": "Gewährleisten Sie höchste Sicherheitsstandards in allen unseren Betrieben. Sie werden Sicherheitsprotokolle entwickeln, Schulungen durchführen und unsere ausgezeichnete Sicherheitsbilanz im Umgang mit Gefahrenabfällen aufrechterhalten.",
+        "responsibilities": [
+          "Entwicklung und Implementierung von Sicherheitsprotokollen und -verfahren",
+          "Durchführung von Sicherheitsschulungen für Mitarbeiter",
+          "Durchführung regelmäßiger Sicherheitsinspektionen und -audits",
+          "Untersuchung von Vorfällen und Empfehlung von Korrekturmaßnahmen",
+          "Führung von Sicherheitsdokumentation und -aufzeichnungen"
+        ],
+        "requirements": [
+          "Bachelor-Abschluss in Arbeitsschutz und Arbeitssicherheit oder verwandtem Bereich",
+          "2-4 Jahre Erfahrung in der Industriesicherheit",
+          "NEBOSH- oder IOSH-Zertifizierung bevorzugt",
+          "Kenntnisse über ISO 45001 und Sicherheitsvorschriften",
+          "Starke Aufmerksamkeit für Details und organisatorische Fähigkeiten",
+          "Fähigkeit, unter herausfordernden Feldbedingungen zu arbeiten"
+        ],
+        "benefits": [
+          "Wettbewerbsfähiges Gehaltspaket",
+          "Gesundheits- und Sicherheitsversicherung",
+          "Schulungs- und Zertifizierungsunterstützung",
+          "Transportzuschuss",
+          "Möglichkeiten zur Karriereentwicklung"
+        ]
+      },
+      "projectManager": {
+        "title": "Projektmanager",
+        "department": "Projektmanagement",
+        "location": "Kairo, Ägypten",
+        "type": "Vollzeit",
+        "experience": "5-8 Jahre",
+        "description": "Leiten Sie komplexe Umweltprojekte von der Konzeption bis zum Abschluss. Sie werden funktionsübergreifende Teams verwalten, mit Kunden koordinieren und sicherstellen, dass Projekte termingerecht und im Rahmen des Budgets geliefert werden.",
+        "responsibilities": [
+          "Gleichzeitige Verwaltung mehrerer Umweltprojekte",
+          "Koordination mit Kunden, Auftragnehmern und internen Teams",
+          "Entwicklung von Projektzeitplänen, Budgets und Ressourcenzuteilung",
+          "Überwachung des Projektfortschritts und Risikomanagement",
+          "Sicherstellung von Qualitätsstandards und regulatorischer Compliance"
+        ],
+        "requirements": [
+          "Bachelor-Abschluss in Ingenieurwesen, Betriebswirtschaft oder verwandtem Bereich",
+          "5-8 Jahre Erfahrung im Projektmanagement",
+          "PMP-Zertifizierung bevorzugt",
+          "Erfahrung in Umwelt- oder Bauprojekten",
+          "Starke Führungs- und Kommunikationsfähigkeiten",
+          "Kenntnisse in Projektmanagement-Software"
+        ],
+        "benefits": [
+          "Attraktives Gehalt und Anreizsystem",
+          "Umfassende medizinische Abdeckung",
+          "Unterstützung bei beruflicher Zertifizierung",
+          "Firmenwagen oder Transportzuschuss",
+          "Leistungsbasierte Boni"
+        ]
+      },
+      "fieldTechnician": {
+        "title": "Außendiensttechniker",
+        "department": "Betrieb",
+        "location": "Mehrere Standorte",
+        "type": "Vollzeit",
+        "experience": "1-3 Jahre",
+        "description": "Arbeiten Sie praktisch mit unserer hochmodernen Ausrüstung im Außendienst. Sie sind verantwortlich für den Betrieb der Ausrüstung, Wartung und Gewährleistung reibungsloser Außendienstoperationen an verschiedenen Kundenstandorten.",
+        "responsibilities": [
+          "Betrieb und Wartung von Behandlungsausrüstung",
+          "Durchführung routinemäßiger Inspektionen und vorbeugender Wartung",
+          "Sammlung von Proben und Durchführung von Feldtests",
+          "Dokumentation von Betriebsdaten und Wartungsaktivitäten",
+          "Koordination mit Standortaufsehern und Kunden"
+        ],
+        "requirements": [
+          "Technisches Diplom oder Zertifikat in Maschinenbau/Chemieingenieurwesen",
+          "1-3 Jahre Erfahrung in industriellen Betrieben",
+          "Kenntnisse mechanischer und elektrischer Systeme",
+          "Fähigkeit, in Außen- und herausfordernden Umgebungen zu arbeiten",
+          "Starke praktische Problemlösungsfähigkeiten",
+          "Gültiger Führerschein"
+        ],
+        "benefits": [
+          "Wettbewerbsfähige Stundensätze",
+          "Überstundenvergütung",
+          "Bereitstellung von Sicherheitsausrüstung und Schulungen",
+          "Krankenversicherungsschutz",
+          "Programme zur Kompetenzentwicklung"
+        ]
+      }
+    }
+  }
+}
