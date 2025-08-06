@@ -59,12 +59,12 @@ const Hero: React.FC = () => {
     <Box
       id="home"
       sx={{
-        minHeight: '100vh',
+        minHeight: { xs: '65vh', md: '100vh' }, // reduced height
         position: 'relative',
         display: 'flex',
         alignItems: 'center',
         overflow: 'hidden',
-        backgroundColor: '#1B4B8C', // Fallback color
+        backgroundColor: '#1B4B8C', // Fallback color        
       }}
     >
       {/* Background Images */}
@@ -104,7 +104,14 @@ const Hero: React.FC = () => {
           zIndex: 1,
         }}
       />
-      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 2, py: 8 }}>
+      <Container maxWidth="lg" sx={{ 
+        position: 'absolute',
+        top: { xs: '80%', md: '50%' }, // mobile: 80%, desktop: 50%
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        zIndex: 2, 
+        width: '100%'
+      }}>
         <Grid container spacing={6} alignItems="center">
           <Grid item xs={12} lg={8}>
             <Box sx={{ textAlign: { xs: 'center', lg: 'left' } }}>
@@ -113,7 +120,7 @@ const Hero: React.FC = () => {
                 sx={{
                   color: 'white',
                   fontWeight: t('hero.company').includes('شركة') ? 400 : 'bold',
-                  fontSize: { xs: '0.9rem', sm: '1.1rem', md: '1.25rem' },
+                  fontSize: { xs: '0.7rem', sm: '1.1rem', md: '1.25rem' },
                   letterSpacing: t('hero.company').includes('شركة') ? '0em' : '0.15em',
                   mb: 2,
                   display: 'block',
@@ -123,21 +130,7 @@ const Hero: React.FC = () => {
                 {t('hero.company')}
               </Typography>
               
-              {/* <Typography
-                variant={isMobile ? 'h3' : 'h1'}
-                component="h1"
-                sx={{
-                  color: 'white',
-                  fontWeight: 800,
-                  mb: 3,
-                  lineHeight: 1.1,
-                  textShadow: '3px 3px 6px rgba(0,0,0,0.7)',
-                  fontSize: { xs: '2.5rem', md: '3.5rem', lg: '4rem' },
-                }}
-              >
-                Advanced Waste Treatment & Oil Recovery Services
-              </Typography> */}
-              
+
               <Typography
                 variant="h6"
                 sx={{
@@ -148,7 +141,7 @@ const Hero: React.FC = () => {
                   textShadow: '2px 2px 4px rgba(0,0,0,0.7)',
                   maxWidth: 600,
                   mx: { xs: 'auto', lg: 0 },
-                  fontSize: { xs: '1rem', sm: '1.15rem', md: '1.25rem' },
+                  fontSize: { xs: '0.7rem', sm: '1.15rem', md: '1.25rem' },
                 }}
               >
                 {t('hero.subtitle')}
@@ -170,7 +163,7 @@ const Hero: React.FC = () => {
                             fontWeight: 'bold',
                             mb: 0.5,
                             textShadow: '3px 3px 6px rgba(0,0,0,0.8)',
-                            fontSize: { xs: '1.5rem', sm: '2rem', md: '2.5rem', lg: '3rem' },
+                            fontSize: { xs: '0.9rem', sm: '2rem', md: '2.5rem', lg: '3rem' },
                           }}
                         >
                           {stat.number}
@@ -179,7 +172,7 @@ const Hero: React.FC = () => {
                           variant="body1"
                           sx={{
                             color: 'rgba(255, 255, 255, 0.9)',
-                            fontSize: { xs: '0.75rem', sm: '0.85rem', md: '0.9rem' },
+                            fontSize: { xs: '0.6rem', sm: '0.85rem', md: '0.9rem' },
                             textShadow: '2px 2px 4px rgba(0,0,0,0.7)',
                             fontWeight: 500,
                           }}
@@ -207,7 +200,7 @@ const Hero: React.FC = () => {
                   sx={{
                     px: 4,
                     py: 1.5,
-                    fontSize: { xs: '0.95rem', sm: '1rem', md: '1.1rem' },
+                    fontSize: { xs: '0.7rem', sm: '1rem', md: '1.1rem' },
                     fontWeight: 700,
                     borderRadius: 2,
                     textTransform: 'none',
@@ -232,7 +225,7 @@ const Hero: React.FC = () => {
                   sx={{
                     px: 4,
                     py: 1.5,
-                    fontSize: { xs: '0.95rem', sm: '1rem', md: '1.1rem' },
+                    fontSize: { xs: '0.7rem', sm: '1rem', md: '1.1rem' },
                     fontWeight: 700,
                     borderRadius: 2,
                     textTransform: 'none',
