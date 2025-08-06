@@ -352,6 +352,8 @@
     "videoLabel": "Video",
     "source": "Source",
     "readMore": "Read More",
+    "showMore": "Show More",
+    "showLess": "Show Less",
     "items": {
       "0": {
         "title": "Petrotreatment Company Introduction Video",
@@ -542,5 +544,12 @@
         ]
       }
     }
+  },
+  "chairman": {
+    "title": "Message from Our Chairman",
+    "subtitle": "Leadership vision for a sustainable future",
+    "quote": "Our goal is to help shape a greener future by embracing sustainability and excellence at the core of everything we do. We are committed to innovation, responsibility, and impactful solutions that serve both our environment and future generations.",
+    "name": "Dr. Alaaeldin Youssef",
+    "position": "Chairman"
   }
 }

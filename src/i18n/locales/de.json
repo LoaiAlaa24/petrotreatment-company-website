@@ -352,6 +352,8 @@
     "videoLabel": "Video",
     "source": "Quelle",
     "readMore": "Mehr lesen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
     "items": {
       "0": {
         "title": "Petrotreatment Unternehmenspräsentationsvideo",
@@ -542,5 +544,12 @@
         ]
       }
     }
+  },
+  "chairman": {
+    "title": "Botschaft unseres Vorsitzenden",
+    "subtitle": "Führungsvision für eine nachhaltige Zukunft",
+    "quote": "Unser Ziel ist es, eine grünere Zukunft zu gestalten, indem wir Nachhaltigkeit und Exzellenz in den Kern von allem stellen, was wir tun. Wir sind Innovation, Verantwortung und wirkungsvollen Lösungen verpflichtet, die sowohl unserer Umwelt als auch zukünftigen Generationen dienen.",
+    "name": "Dr. Alaaeldin Youssef",
+    "position": "Vorsitzender"
   }
 }

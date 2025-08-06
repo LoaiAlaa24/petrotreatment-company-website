@@ -221,6 +221,12 @@ const Achievements: React.FC = () => {
         '/achievements/1/PHOTO-2023-11-15-18-06-54.jpg',
         '/achievements/1/PHOTO-2023-12-06-05-46-15.jpg',
         '/achievements/1/IMG_1822.jpg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 12.56.05.jpeg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 12.56.05 (1).jpeg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 12.56.05 (2).jpeg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 12.56.05 (3).jpeg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 12.56.05 (4).jpeg',
+        '/achievements/1/WhatsApp Image 2025-08-06 at 13.19.38.jpeg',
       ],
     },
     {

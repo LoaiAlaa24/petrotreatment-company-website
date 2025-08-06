@@ -352,6 +352,8 @@
     "videoLabel": "Vidéo",
     "source": "Source",
     "readMore": "Lire plus",
+    "showMore": "Voir plus",
+    "showLess": "Voir moins",
     "items": {
       "0": {
         "title": "Vidéo de présentation de l'entreprise Petrotreatment",
@@ -542,5 +544,12 @@
         ]
       }
     }
+  },
+  "chairman": {
+    "title": "Message de notre président",
+    "subtitle": "Vision de leadership pour un avenir durable",
+    "quote": "Notre objectif est d'aider à façonner un avenir plus vert en embrassant la durabilité et l'excellence au cœur de tout ce que nous faisons. Nous nous engageons à l'innovation, à la responsabilité et à des solutions impactantes qui servent à la fois notre environnement et les générations futures.",
+    "name": "Dr. Alaaeldin Youssef",
+    "position": "Président"
   }
 }

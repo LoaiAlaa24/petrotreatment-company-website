@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Box,
   Container,
@@ -10,6 +10,7 @@ import {
   useTheme,
   useMediaQuery,
   Chip,
+  Collapse,
 } from '@mui/material';
 import {
   Article,
@@ -17,6 +18,8 @@ import {
   Language,
   OpenInNew,
   PlayCircleOutline,
+  ExpandMore,
+  ExpandLess,
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 
@@ -34,6 +37,9 @@ const Media: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
   const { t } = useTranslation();
+  const [showAll, setShowAll] = useState(false);
+
+  const INITIAL_ITEMS_COUNT = 3; // Show first 3 items initially
 
   const mediaItems: MediaItem[] = [
     {
@@ -124,7 +130,7 @@ const Media: React.FC = () => {
         </Box>
 
         <Grid container spacing={4}>
-          {mediaItems.map((item) => (
+          {mediaItems.slice(0, INITIAL_ITEMS_COUNT).map((item) => (
             <Grid item xs={12} md={item.type === 'video' ? 12 : 6} key={item.id}>
               <Card
                 sx={{
@@ -250,7 +256,167 @@ const Media: React.FC = () => {
               </Card>
             </Grid>
           ))}
+          
+          {/* Collapsible section for additional items */}
+          <Collapse in={showAll} timeout="auto" unmountOnExit>
+            {mediaItems.slice(INITIAL_ITEMS_COUNT).map((item) => (
+              <Grid item xs={12} md={item.type === 'video' ? 12 : 6} key={item.id}>
+                <Card
+                  sx={{
+                    height: '100%',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    transition: 'all 0.3s ease',
+                    border: '1px solid',
+                    borderColor: 'divider',
+                    '&:hover': {
+                      transform: 'translateY(-4px)',
+                      boxShadow: theme.shadows[8],
+                      borderColor: 'primary.light',
+                    },
+                  }}
+                >
+                  {item.type === 'video' && item.embedId && (
+                    <Box
+                      sx={{
+                        position: 'relative',
+                        paddingBottom: '56.25%', // 16:9 aspect ratio
+                        height: 0,
+                        overflow: 'hidden',
+                      }}
+                    >
+                      <iframe
+                        src={`https://www.youtube.com/embed/${item.embedId}`}
+                        title={item.title}
+                        style={{
+                          position: 'absolute',
+                          top: 0,
+                          left: 0,
+                          width: '100%',
+                          height: '100%',
+                          border: 'none',
+                        }}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </Box>
+                  )}
+                  <CardContent sx={{ flexGrow: 1, p: 3 }}>
+                    <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', mb: 2 }}>
+                      <Chip
+                        icon={item.icon}
+                        label={
+                          item.type === 'news' 
+                            ? t('media.newsLabel') 
+                            : item.type === 'video' 
+                            ? t('media.videoLabel')
+                            : t('media.socialLabel')
+                        }
+                        size="small"
+                        sx={{
+                          backgroundColor: 
+                            item.type === 'news' 
+                              ? 'primary.light' 
+                              : item.type === 'video'
+                              ? 'warning.light'
+                              : 'secondary.light',
+                          color: 'white',
+                          fontWeight: 600,
+                          fontSize: '0.75rem',
+                          height: 28,
+                          '& .MuiChip-icon': {
+                            fontSize: 16,
+                            ml: 0.5,
+                            color: 'white',
+                          },
+                          borderRadius: 2,
+                        }}
+                      />
+                    </Box>
+
+                    <Typography
+                      variant="h6"
+                      component="h3"
+                      sx={{
+                        fontWeight: 'bold',
+                        color: 'text.primary',
+                        mb: 2,
+                        lineHeight: 1.4,
+                        display: '-webkit-box',
+                        WebkitLineClamp: 2,
+                        WebkitBoxOrient: 'vertical',
+                        overflow: 'hidden',
+                      }}
+                    >
+                      {item.title}
+                    </Typography>
+
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        color: 'text.secondary',
+                        mb: 3,
+                        fontWeight: 500,
+                      }}
+                    >
+                      {t('media.source')}: {item.source}
+                    </Typography>
+
+                    <Button
+                      variant="outlined"
+                      endIcon={<OpenInNew />}
+                      onClick={() => window.open(item.url, '_blank')}
+                      sx={{
+                        borderRadius: 2,
+                        textTransform: 'none',
+                        fontWeight: 600,
+                        px: 3,
+                        py: 1,
+                        '&:hover': {
+                          backgroundColor: 'primary.light',
+                          borderColor: 'primary.main',
+                          color: 'primary.main',
+                        },
+                      }}
+                    >
+                      {t('media.readMore')}
+                    </Button>
+                  </CardContent>
+                </Card>
+              </Grid>
+            ))}
+          </Collapse>
         </Grid>
+
+        {/* Show More/Less Button */}
+        {mediaItems.length > INITIAL_ITEMS_COUNT && (
+          <Box sx={{ display: 'flex', justifyContent: 'center', mt: 6 }}>
+            <Button
+              variant="contained"
+              size="large"
+              onClick={() => setShowAll(!showAll)}
+              startIcon={showAll ? <ExpandLess /> : <ExpandMore />}
+              sx={{
+                borderRadius: 3,
+                textTransform: 'none',
+                fontWeight: 600,
+                px: 4,
+                py: 1.5,
+                fontSize: '1rem',
+                boxShadow: theme.shadows[4],
+                background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.primary.dark} 100%)`,
+                '&:hover': {
+                  boxShadow: theme.shadows[8],
+                  transform: 'translateY(-2px)',
+                  background: `linear-gradient(135deg, ${theme.palette.primary.dark} 0%, ${theme.palette.primary.main} 100%)`,
+                },
+                transition: 'all 0.3s ease',
+              }}
+            >
+              {showAll ? t('media.showLess') : t('media.showMore')}
+            </Button>
+          </Box>
+        )}
       </Container>
     </Box>
   );

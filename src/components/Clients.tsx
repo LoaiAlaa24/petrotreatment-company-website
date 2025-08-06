@@ -74,10 +74,6 @@ const Clients: React.FC = () => {
       logo: '/clients/trest.jpeg',
     },
     {
-      name: 'NOSPCO',
-      logo: '/clients/NOSPCO وظائف خالية فى شركة شمال سيناء للبترول.jpg',
-    },
-    {
       name: 'GE',
       logo: '/clients/ge.jpg',
     },

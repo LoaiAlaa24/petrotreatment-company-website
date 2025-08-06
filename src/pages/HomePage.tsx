@@ -5,6 +5,7 @@ import Hero from '../components/Hero';
 
 // Lazy load components that are below the fold
 const About = React.lazy(() => import('../components/About'));
+const Chairman = React.lazy(() => import('../components/Chairman'));
 const History = React.lazy(() => import('../components/History'));
 const Services = React.lazy(() => import('../components/Services'));
 const Resources = React.lazy(() => import('../components/Resources'));
@@ -43,6 +44,7 @@ const HomePage: React.FC = () => {
         <Achievements />
         <Resources />
         <MajorProjects />
+        <Chairman />
         <Media />
         <Contact />
         <Footer />
