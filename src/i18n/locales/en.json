@@ -169,6 +169,11 @@
         "title": "Hours",
         "content": "9 AM - 5 PM Cairo Time",
         "subtitle": "Professional services"
+      },
+      "fax": {
+        "title": "Telefax",
+        "content": "+20 2 7424012",
+        "subtitle": "Send us documents"
       }
     },
     "form": {

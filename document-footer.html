@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Footer</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .footer {
+            border-top: 3px solid #1976d2;
+            background: linear-gradient(to right, #f8f9fa, #ffffff);
+            padding: 16px 20px;
+            text-align: center;
+            font-size: 11pt;
+            page-break-inside: avoid;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .company-name {
+            font-weight: bold;
+            font-size: 14pt;
+            color: #1976d2;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+        
+        .tagline {
+            font-style: italic;
+            color: #666;
+            font-size: 9pt;
+            margin-bottom: 8px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            margin: 8px 0;
+            flex-wrap: wrap;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 10pt;
+            color: #333;
+        }
+        
+        .material-icons {
+            color: #1976d2;
+            font-size: 16px;
+        }
+        
+        .qr-code {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            margin: 0 6px;
+        }
+        
+        @media print {
+            .footer {
+                box-shadow: none;
+                background: #f8f9fa;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <div class="contact-info">
+            <div class="contact-item">
+                <span class="material-icons">location_on</span>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=60x60&data=https://maps.app.goo.gl/5wmYWVudGL2NroEY6" alt="Location QR" class="qr-code">
+                <span>Tower 5S, Al-Foustat Main Street, New Foustat City, Misr El-Qadeema, Egypt</span>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">phone</span>
+                <span>+201001604667 | +201112121294 | +201012345167</span>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">email</span>
+                <span>info@petrotreatment.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">language</span>
+                <span>www.petrotreatment.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="material-icons">fax</span>
+                <span>+20 2 7424012</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
