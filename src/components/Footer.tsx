@@ -12,6 +12,7 @@ import {
   Phone,
   Email,
   LocationOn,
+  Fax,
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 
@@ -108,6 +109,12 @@ const Footer: React.FC = () => {
               <Email sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
               <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)' }}>
                 info@petrotreatment.com
+              </Typography>
+            </Box>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+              <Fax sx={{ fontSize: 18, mr: 2, color: '#3366B3' }} />
+              <Typography variant="body2" sx={{ color: 'rgba(255, 255, 255, 0.8)', direction: 'ltr', fontFamily: 'monospace' }}>
+                +20 2 7424012
               </Typography>
             </Box>
             <Box sx={{ display: 'flex', alignItems: 'center' }}>

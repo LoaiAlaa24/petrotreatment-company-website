@@ -18,13 +18,13 @@ const Hero: React.FC = () => {
   const { t } = useTranslation();
 
   const heroImages = [
-    '/hero_images/78cc76ed-3663-4953-af86-c6728ac8aa2d.jpg',
-    '/hero_images/e75c903a-761c-4d05-ae51-8cfaed68e1b8.jpg',
-    '/hero_images/IMG_0937.jpg',
+    '/hero_images/PHOTO-2025-02-21-01-18-14.jpg',
     '/hero_images/IMG_0948.jpg',
     '/hero_images/IMG_0975.jpg',
-    '/hero_images/PHOTO-2025-02-21-01-18-14.jpg',
+    '/hero_images/IMG_0937.jpg',
     '/hero_images/PHOTO-2025-02-21-01-18-15.jpg',
+    '/hero_images/78cc76ed-3663-4953-af86-c6728ac8aa2d.jpg',
+    '/hero_images/e75c903a-761c-4d05-ae51-8cfaed68e1b8.jpg',
   ];
 
   useEffect(() => {

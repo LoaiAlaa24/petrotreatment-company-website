@@ -17,6 +17,7 @@ import {
   Email,
   LocationOn,
   Schedule,
+  Fax,
 } from '@mui/icons-material';
 import { useTranslation } from 'react-i18next';
 
@@ -60,6 +61,12 @@ const Contact: React.FC = () => {
       title: t('contact.info.hours.title'),
       content: t('contact.info.hours.content'),
       subtitle: t('contact.info.hours.subtitle'),
+    },
+    {
+      icon: <Fax sx={{ fontSize: 40, color: 'primary.main' }} />,
+      title: t('contact.info.fax.title'),
+      content: t('contact.info.fax.content'),
+      subtitle: t('contact.info.fax.subtitle'),
     },
   ];
 

@@ -169,6 +169,11 @@
         "title": "营业时间",
         "content": "开罗时间上午9点 - 下午5点",
         "subtitle": "专业服务"
+      },
+      "fax": {
+        "title": "传真",
+        "content": "+20 2 7424012",
+        "subtitle": "发送文档"
       }
     },
     "form": {

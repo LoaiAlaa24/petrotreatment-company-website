@@ -169,6 +169,11 @@
         "title": "Heures",
         "content": "9h00 - 17h00 heure du Caire",
         "subtitle": "Services professionnels"
+      },
+      "fax": {
+        "title": "Téléfax",
+        "content": "+20 2 7424012",
+        "subtitle": "Envoyez-nous des documents"
       }
     },
     "form": {

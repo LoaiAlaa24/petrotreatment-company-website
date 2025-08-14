@@ -169,6 +169,11 @@
         "title": "Öffnungszeiten",
         "content": "9:00 - 17:00 Uhr Kairoer Zeit",
         "subtitle": "Professionelle Dienstleistungen"
+      },
+      "fax": {
+        "title": "Telefax",
+        "content": "+20 2 7424012",
+        "subtitle": "Senden Sie uns Dokumente"
       }
     },
     "form": {
