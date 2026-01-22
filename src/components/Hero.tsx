@@ -25,6 +25,9 @@ const Hero: React.FC = () => {
     '/hero_images/IMG_0975.jpg',
     '/hero_images/PHOTO-2025-02-21-01-18-14.jpg',
     '/hero_images/PHOTO-2025-02-21-01-18-15.jpg',
+    '/hero_images/tamer.jpeg',
+    '/hero_images/tamer_2.jpeg',
+    '/hero_images/tamer3.jpeg',
   ];
 
   useEffect(() => {
